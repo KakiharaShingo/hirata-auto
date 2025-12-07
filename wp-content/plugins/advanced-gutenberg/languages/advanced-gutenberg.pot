@@ -1,0 +1,3818 @@
+# Copyright (C) 2025 PublishPress
+# This file is distributed under the GPL2.
+msgid ""
+msgstr ""
+"Project-Id-Version: PublishPress Blocks 3.6.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/project\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-11-11T15:24:54+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: advanced-gutenberg\n"
+
+#. Plugin Name of the plugin
+#: advanced-gutenberg.php
+#: incl/advanced-gutenberg-main.php:174
+#: incl/advanced-gutenberg-main.php:1879
+#: incl/pages/block-settings.php:95
+#: incl/pages/main.php:8
+#: incl/pages/main.php:31
+msgid "PublishPress Blocks"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: advanced-gutenberg.php
+msgid "https://publishpress.com/blocks/"
+msgstr ""
+
+#. Description of the plugin
+#: advanced-gutenberg.php
+msgid "PublishPress Blocks has everything you need to build professional websites with the Gutenberg editor."
+msgstr ""
+
+#. Author of the plugin
+#: advanced-gutenberg.php
+msgid "PublishPress"
+msgstr ""
+
+#. Author URI of the plugin
+#: advanced-gutenberg.php
+msgid "https://publishpress.com/"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:445
+#: incl/advanced-gutenberg-main.php:911
+#: incl/advanced-gutenberg-main.php:2094
+#: incl/advanced-gutenberg-main.php:3320
+#: incl/advanced-gutenberg-main.php:5925
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:446
+#: incl/advanced-gutenberg-main.php:2095
+#: incl/advanced-gutenberg-main.php:3321
+#: incl/pages/block-settings.php:133
+msgid "Pro"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:885
+#, php-format
+msgid "You're using PublishPress Blocks Free. The Pro version has more features and support. %sUpgrade to Pro%s"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1120
+#: incl/advanced-gutenberg-main.php:1246
+#: incl/advanced-gutenberg-main.php:1307
+#: incl/block-styles/block-styles.php:234
+msgid "No permission!"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1257
+#: incl/advanced-gutenberg-main.php:1313
+#: incl/advanced-gutenberg-main.php:1373
+#: incl/advanced-gutenberg-main.php:1465
+#: incl/block-styles/block-styles.php:241
+msgid "Invalid nonce token!"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1261
+msgid "Error: wrong data"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1292
+msgid "Error: can't edit this feature"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1378
+#: incl/advanced-gutenberg-main.php:1470
+#: incl/advanced-gutenberg-main.php:1523
+msgid "Bad Request!"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1386
+#: incl/advanced-gutenberg-main.php:1478
+#: incl/advanced-gutenberg-main.php:1531
+msgid "Server error. Try again later!"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1394
+#: incl/advanced-gutenberg-main.php:1486
+#: incl/advanced-gutenberg-main.php:1539
+msgid "Cannot validate captcha"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1399
+#: incl/advanced-gutenberg-main.php:1491
+#: incl/advanced-gutenberg-main.php:1544
+msgid "Captcha validation error"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1424
+#: incl/pages/settings/forms.php:24
+msgid "Website Contact"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1430
+msgid "You have received a contact from your website."
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1433
+msgid "Name"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1435
+#: incl/block-settings-main.php:808
+#: incl/block-settings-main.php:849
+#: incl/block-settings-main.php:890
+msgid "Email"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1437
+msgid "Date"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1439
+msgid "Message"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1447
+msgid "Error while sending the form. Please try again."
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1547
+msgid "Captcha validated"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1550
+msgid "Captcha is empty"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1865
+#: incl/advanced-gutenberg-main.php:5912
+msgid "Dashboard"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1872
+#: incl/advanced-gutenberg-main.php:2185
+#: incl/pages/main.php:21
+msgid "Block Permissions"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1886
+#: incl/pages/custom-styles.php:9
+#: incl/pages/main.php:41
+msgid "Block Styles"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1893
+#: incl/pages/block-controls.php:30
+#: incl/pages/main.php:51
+msgid "Block Controls"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1900
+#: incl/advanced-gutenberg-main.php:3631
+#: incl/pages/main.php:61
+msgid "Block Usage"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1907
+#: incl/advanced-gutenberg-main.php:5944
+#: incl/advanced-gutenberg-main.php:5946
+#: incl/pages/main.php:71
+msgid "Reusable Blocks"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1914
+#: incl/auto-insert-blocks/class-auto-insert-blocks.php:117
+#: incl/auto-insert-blocks/class-auto-insert-blocks.php:155
+#: incl/auto-insert-blocks/class-auto-insert-blocks.php:156
+#: incl/pages/main.php:81
+msgid "Auto Insert Blocks"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:1921
+#: incl/advanced-gutenberg-main.php:5918
+#: incl/pages/settings.php:26
+msgid "Settings"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:2160
+#: incl/advanced-gutenberg-main.php:2206
+#: incl/advanced-gutenberg-main.php:2250
+#: incl/advanced-gutenberg-main.php:2286
+#: incl/advanced-gutenberg-main.php:2332
+#, php-format
+msgid "This feature is disabled. In order to use, please enable back through %sDashboard%s."
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:2405
+#, php-format
+msgid "If you like %sPublishPress Blocks%s please leave us a %s rating. Thank you!"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:2422
+msgid "About PublishPress Blocks"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:2425
+msgid "About"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:2432
+#: incl/advanced-gutenberg-main.php:2435
+msgid "Documentation"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:2443
+msgid "Contact the PublishPress team"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:2446
+msgid "Contact"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:2454
+msgid "PublishPress Blocks logo"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:3477
+#, php-format
+msgid "%s saved successfully!"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:3487
+#, php-format
+msgid "%s can't be saved. Please try again."
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:3543
+#: incl/pages/block-controls/blocks.php:13
+#: incl/pages/block-settings.php:102
+msgid "Search blocks"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:3548
+msgid "Enable or disable all blocks"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:3561
+#: incl/advanced-gutenberg-main.php:3607
+#: incl/pages/block-controls/blocks.php:31
+#: incl/pages/block-controls/blocks.php:79
+msgid "To save this configuration, enable at least one block."
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:3572
+#: incl/advanced-gutenberg-main.php:3596
+msgid "Save Role Block Permissions"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:3576
+#: incl/advanced-gutenberg-main.php:3600
+msgid "Save Permission for all Roles"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:3585
+#: incl/advanced-gutenberg-main.php:3641
+#: incl/pages/block-controls/blocks.php:56
+msgid "Loading..."
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:3634
+msgid "Scan Block Usage"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:3977
+#: incl/advanced-gutenberg-main.php:3978
+msgid "Block Config"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:4037
+msgid "Default configuration for this block is not available."
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:4103
+#, php-format
+msgid "Page not found. Go to %sDashboard%s"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:4516
+#: incl/block-styles/block-styles.php:977
+#: incl/block-styles/block-styles.php:996
+#: incl/block-styles/block-styles.php:1166
+#: incl/block-styles/block-styles.php:1187
+#: incl/block-styles/block-styles.php:1220
+#: incl/block-styles/block-styles.php:1236
+#: incl/block-styles/block-styles.php:1263
+#: incl/block-styles/block-styles.php:1276
+#: incl/block-styles/block-styles.php:1356
+#: incl/block-styles/block-styles.php:1388
+#: incl/block-styles/block-styles.php:1416
+#: incl/block-styles/block-styles.php:1444
+#: incl/block-styles/block-styles.php:1472
+#: incl/block-styles/block-styles.php:1532
+#: incl/block-styles/block-styles.php:1710
+#: incl/pages/settings/general.php:135
+msgid "Default"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:4530
+msgid "Type field not defined"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:4805
+msgid "User registration is currently not allowed."
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:4809
+msgid "Captcha must be checked!"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:4810
+msgid "Username or password is incorrect!"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:5945
+#: incl/auto-insert-blocks/class-auto-insert-blocks.php:198
+#: incl/auto-insert-blocks/class-auto-insert-metaboxes.php:87
+msgid "Reusable Block"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:5947
+msgid "All Reusable Blocks"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:5948
+msgid "Add New"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:5949
+msgid "Add New Reusable Block"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:5950
+msgid "Edit Reusable Block"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:5951
+msgid "New Reusable Block"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:5952
+msgid "View Reusable Block"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:5953
+msgid "View Reusable Blocks"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:5954
+msgid "Search Reusable Blocks"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:5955
+msgid "No reusable blocks found."
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:5956
+msgid "No reusable blocks found in Trash."
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:5957
+msgid "Parent Reusable Block:"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:5958
+msgid "Reusable Block Archives"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:5976
+msgid "Reusable Block Categories"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:5977
+msgid "Reusable Block Category"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:5978
+msgid "Block Categories"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:5979
+msgid "All Block Categories"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:5980
+msgid "Edit Block Category"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:5981
+msgid "View Block Category"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:5982
+msgid "Update Block Category"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:5983
+msgid "Add New Block Category"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:5984
+msgid "New Block Category Name"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:5985
+msgid "Parent Block Category"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:5986
+msgid "Parent Block Category:"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:5987
+msgid "Search Block Categories"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:5988
+msgid "Popular Block Categories"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:5989
+msgid "Separate block categories with commas"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:5990
+msgid "Add or remove block categories"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:5991
+msgid "Choose from the most used block categories"
+msgstr ""
+
+#: incl/advanced-gutenberg-main.php:5992
+msgid "No block categories found."
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-blocks.php:118
+msgid "Auto Insert Block"
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-blocks.php:119
+msgid "Add New Rule"
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-blocks.php:120
+msgid "Add New Auto Insert Block"
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-blocks.php:121
+msgid "Edit Auto Insert Block"
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-blocks.php:122
+msgid "New Auto Insert Block"
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-blocks.php:123
+msgid "View Auto Insert Block"
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-blocks.php:124
+msgid "Search Auto Insert Blocks"
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-blocks.php:125
+msgid "No auto insert blocks found"
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-blocks.php:126
+msgid "No auto insert blocks found in trash"
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-blocks.php:199
+#: incl/block-styles/block-styles.php:1273
+msgid "Position"
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-blocks.php:200
+msgid "Targeting"
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-blocks.php:201
+#: incl/auto-insert-blocks/class-auto-insert-metaboxes.php:533
+msgid "Priority"
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-blocks.php:217
+msgid "Block not found"
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-blocks.php:266
+#, php-format
+msgid "Post Types: %s"
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-blocks.php:284
+#, php-format
+msgid "Authors: %s"
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-blocks.php:325
+#: incl/auto-insert-blocks/class-auto-insert-metaboxes.php:407
+msgid "January"
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-blocks.php:326
+#: incl/auto-insert-blocks/class-auto-insert-metaboxes.php:408
+msgid "February"
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-blocks.php:327
+#: incl/auto-insert-blocks/class-auto-insert-metaboxes.php:409
+msgid "March"
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-blocks.php:328
+#: incl/auto-insert-blocks/class-auto-insert-metaboxes.php:410
+msgid "April"
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-blocks.php:329
+#: incl/auto-insert-blocks/class-auto-insert-metaboxes.php:411
+msgid "May"
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-blocks.php:330
+#: incl/auto-insert-blocks/class-auto-insert-metaboxes.php:412
+msgid "June"
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-blocks.php:331
+#: incl/auto-insert-blocks/class-auto-insert-metaboxes.php:413
+msgid "July"
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-blocks.php:332
+#: incl/auto-insert-blocks/class-auto-insert-metaboxes.php:414
+msgid "August"
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-blocks.php:333
+#: incl/auto-insert-blocks/class-auto-insert-metaboxes.php:415
+msgid "September"
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-blocks.php:334
+#: incl/auto-insert-blocks/class-auto-insert-metaboxes.php:416
+msgid "October"
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-blocks.php:335
+#: incl/auto-insert-blocks/class-auto-insert-metaboxes.php:417
+msgid "November"
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-blocks.php:336
+#: incl/auto-insert-blocks/class-auto-insert-metaboxes.php:418
+msgid "December"
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-blocks.php:343
+#: incl/auto-insert-blocks/class-auto-insert-blocks.php:350
+#, php-format
+msgid "Post Created in: %s"
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-blocks.php:365
+#, php-format
+msgid "Specific Post IDs: %s"
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-blocks.php:380
+#, php-format
+msgid "Exclude Post IDs: %s"
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-blocks.php:385
+#: incl/block-settings-main.php:344
+#: incl/block-settings-main.php:474
+#: incl/block-settings-main.php:1556
+#: incl/block-settings-main.php:1595
+#: incl/block-settings-main.php:1728
+#: incl/block-styles/block-styles.php:997
+#: incl/block-styles/block-styles.php:1007
+#: incl/block-styles/block-styles.php:1237
+#: incl/block-styles/block-styles.php:1269
+#: incl/block-styles/block-styles.php:1337
+#: incl/block-styles/block-styles.php:1346
+#: incl/block-styles/block-styles.php:1389
+#: incl/block-styles/block-styles.php:1417
+#: incl/block-styles/block-styles.php:1445
+#: incl/block-styles/block-styles.php:1473
+#: incl/block-styles/block-styles.php:2134
+msgid "None"
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-blocks.php:848
+msgid "Duplicate this auto insert rule"
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-blocks.php:849
+msgid "Duplicate"
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-blocks.php:866
+msgid "Invalid request"
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-blocks.php:875
+msgid "Security check failed"
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-blocks.php:881
+msgid "You do not have permission to duplicate this item"
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-blocks.php:891
+#, php-format
+msgid "Auto insert block duplicated successfully. <a href=\"%s\">Edit the new rule</a>"
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-blocks.php:897
+msgid "Error duplicating auto insert block"
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-blocks.php:929
+#: incl/pages/custom-styles.php:26
+msgid "Copy"
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-metaboxes.php:42
+msgid "Block Selection"
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-metaboxes.php:51
+msgid "Position Settings"
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-metaboxes.php:60
+msgid "Targeting Options"
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-metaboxes.php:69
+msgid "Rule Settings"
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-metaboxes.php:92
+msgid "You do not have any reusable blocks."
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-metaboxes.php:94
+msgid "Click here to add new reusable block"
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-metaboxes.php:101
+msgid "Select a reusable block..."
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-metaboxes.php:135
+#: incl/pages/settings.php:33
+msgid "General"
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-metaboxes.php:136
+msgid "Beginning of post"
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-metaboxes.php:137
+msgid "End of post"
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-metaboxes.php:139
+#: incl/auto-insert-blocks/class-auto-insert-metaboxes.php:217
+#: incl/block-styles/block-styles.php:1497
+msgid "Paragraph"
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-metaboxes.php:140
+msgid "After Nth paragraph"
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-metaboxes.php:141
+msgid "Before Nth paragraph"
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-metaboxes.php:143
+#: incl/auto-insert-blocks/class-auto-insert-metaboxes.php:218
+msgid "Heading"
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-metaboxes.php:144
+msgid "After Nth heading"
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-metaboxes.php:145
+msgid "Before Nth heading"
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-metaboxes.php:147
+msgid "Any Block"
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-metaboxes.php:148
+msgid "After Nth block"
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-metaboxes.php:149
+msgid "Before Nth block"
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-metaboxes.php:151
+msgid "Specific Block"
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-metaboxes.php:152
+msgid "After specific Nth block"
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-metaboxes.php:153
+msgid "Before specific Nth block"
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-metaboxes.php:165
+msgid "Insert Position"
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-metaboxes.php:185
+#, php-format
+msgid "The selected option requires the Pro version. Please select one of the general options or %1$sUpgrade to Pro%2$s."
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-metaboxes.php:196
+msgid "Position Number"
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-metaboxes.php:201
+msgid "Enter the number (e.g., 3 for \"after 3rd heading\")."
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-metaboxes.php:206
+#: incl/auto-insert-blocks/class-auto-insert-metaboxes.php:391
+#: incl/auto-insert-blocks/class-auto-insert-metaboxes.php:471
+#: incl/auto-insert-blocks/class-auto-insert-metaboxes.php:509
+#: incl/auto-insert-blocks/class-auto-insert-metaboxes.php:644
+#: incl/block-styles/block-styles.php:961
+msgid "Pro feature"
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-metaboxes.php:213
+msgid "Exclude from counting"
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-metaboxes.php:219
+msgid "Image"
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-metaboxes.php:220
+msgid "List"
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-metaboxes.php:221
+msgid "Quote"
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-metaboxes.php:222
+msgid "Separator"
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-metaboxes.php:223
+msgid "Spacer"
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-metaboxes.php:233
+msgid "Selected blocks will not be counted when determining position."
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-metaboxes.php:238
+msgid "Search Block"
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-metaboxes.php:241
+msgid "Search and select blocks after this reusable block should be inserted."
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-metaboxes.php:257
+msgid "Search blocks..."
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-metaboxes.php:319
+msgid "Post Types"
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-metaboxes.php:347
+msgid "Taxonomies"
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-metaboxes.php:351
+msgid "You can restrict this block insertion to only post with specific taxonomy terms."
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-metaboxes.php:359
+msgid "Authors"
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-metaboxes.php:362
+msgid "Only target posts from specific authors."
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-metaboxes.php:366
+msgid "Search author..."
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-metaboxes.php:399
+msgid "Post Created in Months"
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-metaboxes.php:402
+msgid "Target posts created in specific months of the year."
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-metaboxes.php:431
+msgid "Post Created in Years"
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-metaboxes.php:434
+msgid "Comma-separated list of years (e.g., 2023,2024,2025)."
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-metaboxes.php:442
+msgid "Target Posts"
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-metaboxes.php:445
+msgid "Search and select posts or enter their IDs to limit this rules to specific posts."
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-metaboxes.php:448
+#: incl/auto-insert-blocks/class-auto-insert-metaboxes.php:485
+msgid "Search posts..."
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-metaboxes.php:464
+#: incl/auto-insert-blocks/class-auto-insert-metaboxes.php:501
+msgid "OR"
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-metaboxes.php:466
+msgid "Enter comma-separated list of post IDs to include (e.g., 123,456,789)."
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-metaboxes.php:479
+msgid "Exclude Posts"
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-metaboxes.php:482
+msgid "Search and select posts or enter their IDs to exclude them from auto insert."
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-metaboxes.php:503
+msgid "Enter comma-separated post IDs to exclude (e.g., 123,456,789)."
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-metaboxes.php:537
+msgid "This option decides which rule runs first if you have multiple rules targeting the same position in a post. For example, 9 will run before 10."
+msgstr ""
+
+#: incl/auto-insert-blocks/class-auto-insert-metaboxes.php:617
+msgid "Search terms..."
+msgstr ""
+
+#: incl/block-controls-main.php:1727
+msgid "Home"
+msgstr ""
+
+#: incl/block-controls-main.php:1731
+msgid "Blog"
+msgstr ""
+
+#: incl/block-controls-main.php:1735
+msgid "Archive"
+msgstr ""
+
+#: incl/block-controls-main.php:1739
+msgid "Search"
+msgstr ""
+
+#: incl/block-controls-main.php:1743
+msgid "404"
+msgstr ""
+
+#: incl/block-settings-main.php:16
+msgid "Accordion Settings"
+msgstr ""
+
+#: incl/block-settings-main.php:19
+msgid "Bottom spacing"
+msgstr ""
+
+#: incl/block-settings-main.php:26
+msgid "Initial Collapsed"
+msgstr ""
+
+#: incl/block-settings-main.php:33
+msgid "Header Settings"
+msgstr ""
+
+#: incl/block-settings-main.php:36
+#: incl/block-settings-main.php:91
+#: incl/block-settings-main.php:163
+#: incl/block-settings-main.php:287
+#: incl/block-settings-main.php:999
+#: incl/block-settings-main.php:1014
+#: incl/block-settings-main.php:1029
+#: incl/block-settings-main.php:1092
+#: incl/block-settings-main.php:1206
+#: incl/block-settings-main.php:1262
+#: incl/block-settings-main.php:1362
+#: incl/block-settings-main.php:1418
+#: incl/block-settings-main.php:1811
+#: incl/block-settings-main.php:1880
+#: incl/block-styles/block-styles.php:1023
+#: incl/block-styles/block-styles.php:1571
+#: incl/block-styles/block-styles.php:1605
+#: incl/block-styles/block-styles.php:2189
+#: incl/block-styles/block-styles.php:2232
+#: incl/block-styles/block-styles.php:2301
+#: incl/block-styles/block-styles.php:2388
+#: assets/blocks/testimonial/block.jsx:368
+msgid "Background Color"
+msgstr ""
+
+#: incl/block-settings-main.php:41
+#: incl/block-settings-main.php:96
+#: incl/block-settings-main.php:158
+#: incl/block-settings-main.php:282
+#: incl/block-settings-main.php:1004
+#: incl/block-settings-main.php:1019
+#: incl/block-settings-main.php:1034
+#: incl/block-settings-main.php:1211
+#: incl/block-settings-main.php:1367
+#: incl/block-settings-main.php:1496
+#: incl/block-styles/block-styles.php:1029
+#: incl/block-styles/block-styles.php:1518
+#: incl/block-styles/block-styles.php:1556
+#: incl/block-styles/block-styles.php:1591
+#: incl/block-styles/block-styles.php:1679
+#: incl/block-styles/block-styles.php:1733
+#: incl/block-styles/block-styles.php:1776
+#: incl/block-styles/block-styles.php:1819
+#: incl/block-styles/block-styles.php:1855
+#: incl/block-styles/block-styles.php:1891
+#: incl/block-styles/block-styles.php:2306
+#: incl/block-styles/block-styles.php:2393
+msgid "Text Color"
+msgstr ""
+
+#: incl/block-settings-main.php:46
+msgid "Header Icon"
+msgstr ""
+
+#: incl/block-settings-main.php:51
+#: incl/block-settings-main.php:502
+msgid "Plus"
+msgstr ""
+
+#: incl/block-settings-main.php:55
+msgid "Plus Circle"
+msgstr ""
+
+#: incl/block-settings-main.php:59
+msgid "Plus Circle Outline"
+msgstr ""
+
+#: incl/block-settings-main.php:63
+msgid "Plus Square Outline"
+msgstr ""
+
+#: incl/block-settings-main.php:67
+msgid "Unfold Arrow"
+msgstr ""
+
+#: incl/block-settings-main.php:71
+msgid "Horizontal Dots"
+msgstr ""
+
+#: incl/block-settings-main.php:75
+msgid "Arrow Down"
+msgstr ""
+
+#: incl/block-settings-main.php:81
+msgid "Header Icon Color"
+msgstr ""
+
+#: incl/block-settings-main.php:88
+#: incl/block-settings-main.php:1026
+msgid "Body Settings"
+msgstr ""
+
+#: incl/block-settings-main.php:103
+#: incl/block-settings-main.php:170
+#: incl/block-settings-main.php:1041
+#: incl/block-settings-main.php:1218
+#: incl/block-settings-main.php:1374
+#: incl/block-settings-main.php:1720
+msgid "Border Settings"
+msgstr ""
+
+#: incl/block-settings-main.php:106
+#: incl/block-settings-main.php:173
+#: incl/block-settings-main.php:1044
+#: incl/block-settings-main.php:1226
+#: incl/block-settings-main.php:1382
+msgid "Border Style"
+msgstr ""
+
+#: incl/block-settings-main.php:111
+#: incl/block-settings-main.php:178
+#: incl/block-settings-main.php:1048
+#: incl/block-settings-main.php:1231
+#: incl/block-settings-main.php:1387
+#: incl/block-settings-main.php:1732
+#: incl/block-styles/block-styles.php:1390
+#: incl/block-styles/block-styles.php:1418
+#: incl/block-styles/block-styles.php:1446
+#: incl/block-styles/block-styles.php:1474
+msgid "Solid"
+msgstr ""
+
+#: incl/block-settings-main.php:115
+#: incl/block-settings-main.php:182
+#: incl/block-settings-main.php:1049
+#: incl/block-settings-main.php:1235
+#: incl/block-settings-main.php:1391
+#: incl/block-settings-main.php:1740
+#: incl/block-styles/block-styles.php:1391
+#: incl/block-styles/block-styles.php:1419
+#: incl/block-styles/block-styles.php:1447
+#: incl/block-styles/block-styles.php:1475
+msgid "Dashed"
+msgstr ""
+
+#: incl/block-settings-main.php:119
+#: incl/block-settings-main.php:186
+#: incl/block-settings-main.php:1050
+#: incl/block-settings-main.php:1239
+#: incl/block-settings-main.php:1395
+#: incl/block-settings-main.php:1736
+#: incl/block-styles/block-styles.php:1392
+#: incl/block-styles/block-styles.php:1420
+#: incl/block-styles/block-styles.php:1448
+#: incl/block-styles/block-styles.php:1476
+msgid "Dotted"
+msgstr ""
+
+#: incl/block-settings-main.php:125
+#: incl/block-settings-main.php:192
+#: incl/block-settings-main.php:1054
+#: incl/block-settings-main.php:1097
+#: incl/block-settings-main.php:1221
+#: incl/block-settings-main.php:1377
+#: incl/block-settings-main.php:1746
+#: incl/block-settings-main.php:1816
+#: incl/block-settings-main.php:1885
+#: incl/block-styles/block-styles.php:1596
+#: incl/block-styles/block-styles.php:2086
+#: assets/blocks/testimonial/block.jsx:373
+msgid "Border Color"
+msgstr ""
+
+#: incl/block-settings-main.php:130
+#: incl/block-settings-main.php:197
+#: incl/block-settings-main.php:1059
+#: incl/block-settings-main.php:1109
+#: incl/block-settings-main.php:1751
+#: incl/block-settings-main.php:1821
+#: incl/block-settings-main.php:1890
+#: incl/block-styles/block-styles.php:1095
+#: assets/blocks/testimonial/block.jsx:387
+msgid "Border Width"
+msgstr ""
+
+#: incl/block-settings-main.php:137
+#: incl/block-settings-main.php:204
+#: incl/block-settings-main.php:1066
+#: incl/block-settings-main.php:1245
+#: incl/block-settings-main.php:1267
+#: incl/block-settings-main.php:1401
+#: incl/block-settings-main.php:1423
+#: incl/block-settings-main.php:1758
+#: incl/block-settings-main.php:1828
+#: incl/block-settings-main.php:1897
+#: incl/block-styles/block-styles.php:1125
+msgid "Border Radius"
+msgstr ""
+
+#: incl/block-settings-main.php:148
+msgid "Text and Color"
+msgstr ""
+
+#: incl/block-settings-main.php:151
+#: incl/block-settings-main.php:457
+msgid "Text Size"
+msgstr ""
+
+#: incl/block-settings-main.php:213
+msgid "Margin Settings"
+msgstr ""
+
+#: incl/block-settings-main.php:216
+#: incl/block-settings-main.php:1932
+#: incl/block-settings-main.php:2043
+#: incl/block-settings-main.php:2123
+msgid "Margin Top"
+msgstr ""
+
+#: incl/block-settings-main.php:223
+#: incl/block-settings-main.php:1953
+#: incl/block-settings-main.php:2064
+#: incl/block-settings-main.php:2144
+msgid "Margin Right"
+msgstr ""
+
+#: incl/block-settings-main.php:230
+#: incl/block-settings-main.php:1939
+#: incl/block-settings-main.php:2050
+#: incl/block-settings-main.php:2130
+msgid "Margin Bottom"
+msgstr ""
+
+#: incl/block-settings-main.php:237
+#: incl/block-settings-main.php:1946
+#: incl/block-settings-main.php:2057
+#: incl/block-settings-main.php:2137
+msgid "Margin Left"
+msgstr ""
+
+#: incl/block-settings-main.php:246
+msgid "Padding Settings"
+msgstr ""
+
+#: incl/block-settings-main.php:249
+#: incl/block-settings-main.php:1835
+#: incl/block-settings-main.php:1904
+#: incl/block-settings-main.php:2015
+#: incl/block-settings-main.php:2095
+msgid "Padding Top"
+msgstr ""
+
+#: incl/block-settings-main.php:256
+#: incl/block-settings-main.php:1856
+#: incl/block-settings-main.php:1925
+#: incl/block-settings-main.php:2036
+#: incl/block-settings-main.php:2116
+msgid "Padding Right"
+msgstr ""
+
+#: incl/block-settings-main.php:263
+#: incl/block-settings-main.php:1842
+#: incl/block-settings-main.php:1911
+#: incl/block-settings-main.php:2022
+#: incl/block-settings-main.php:2102
+msgid "Padding Bottom"
+msgstr ""
+
+#: incl/block-settings-main.php:270
+#: incl/block-settings-main.php:1849
+#: incl/block-settings-main.php:1918
+#: incl/block-settings-main.php:2029
+#: incl/block-settings-main.php:2109
+msgid "Padding Left"
+msgstr ""
+
+#: incl/block-settings-main.php:279
+msgid "Hover Settings"
+msgstr ""
+
+#: incl/block-settings-main.php:292
+msgid "Shadow Color"
+msgstr ""
+
+#: incl/block-settings-main.php:297
+msgid "Shadow H Offset"
+msgstr ""
+
+#: incl/block-settings-main.php:304
+msgid "Shadow V Offset"
+msgstr ""
+
+#: incl/block-settings-main.php:311
+msgid "Shadow Blur"
+msgstr ""
+
+#: incl/block-settings-main.php:318
+msgid "Shadow Spread"
+msgstr ""
+
+#: incl/block-settings-main.php:325
+msgid "Transition Speed"
+msgstr ""
+
+#: incl/block-settings-main.php:336
+msgid "Click action"
+msgstr ""
+
+#: incl/block-settings-main.php:339
+#: incl/block-settings-main.php:1437
+msgid "Action on click"
+msgstr ""
+
+#: incl/block-settings-main.php:348
+msgid "Open image in a lightbox"
+msgstr ""
+
+#: incl/block-settings-main.php:352
+msgid "Open custom URL"
+msgstr ""
+
+#: incl/block-settings-main.php:358
+msgid "Open link in a new tab"
+msgstr ""
+
+#: incl/block-settings-main.php:365
+msgid "Image Size"
+msgstr ""
+
+#: incl/block-settings-main.php:368
+#: incl/block-settings-main.php:595
+#: incl/block-settings-main.php:1452
+#: incl/pages/settings/general.php:145
+msgid "Full width"
+msgstr ""
+
+#: incl/block-settings-main.php:373
+#: incl/block-settings-main.php:756
+#: incl/block-settings-main.php:1469
+msgid "Height"
+msgstr ""
+
+#: incl/block-settings-main.php:380
+#: incl/block-settings-main.php:1462
+msgid "Width"
+msgstr ""
+
+#: incl/block-settings-main.php:389
+#: incl/block-settings-main.php:2076
+msgid "Color"
+msgstr ""
+
+#: incl/block-settings-main.php:392
+#: incl/block-settings-main.php:1491
+#: incl/block-settings-main.php:1965
+msgid "Title Color"
+msgstr ""
+
+#: incl/block-settings-main.php:397
+msgid "Subtitle Color"
+msgstr ""
+
+#: incl/block-settings-main.php:402
+msgid "Overlay Color"
+msgstr ""
+
+#: incl/block-settings-main.php:409
+#: incl/block-settings-main.php:1503
+msgid "Text Alignment"
+msgstr ""
+
+#: incl/block-settings-main.php:412
+#: incl/block-settings-main.php:1506
+msgid "Vertical Alignment"
+msgstr ""
+
+#: incl/block-settings-main.php:417
+#: incl/block-settings-main.php:1511
+#: incl/block-settings-main.php:1644
+#: assets/blocks/testimonial/block.jsx:404
+msgid "Top"
+msgstr ""
+
+#: incl/block-settings-main.php:421
+#: incl/block-settings-main.php:440
+#: incl/block-settings-main.php:926
+#: incl/block-settings-main.php:972
+#: incl/block-settings-main.php:1279
+#: incl/block-settings-main.php:1515
+#: incl/block-settings-main.php:1534
+#: incl/block-settings-main.php:1779
+#: incl/block-styles/block-styles.php:1222
+#: incl/block-styles/block-styles.php:1534
+#: incl/block-styles/block-styles.php:1712
+msgid "Center"
+msgstr ""
+
+#: incl/block-settings-main.php:425
+#: incl/block-settings-main.php:1519
+#: incl/block-settings-main.php:1652
+#: incl/pages/settings/images.php:60
+#: assets/blocks/testimonial/block.jsx:405
+msgid "Bottom"
+msgstr ""
+
+#: incl/block-settings-main.php:431
+#: incl/block-settings-main.php:1525
+msgid "Horizontal Alignment"
+msgstr ""
+
+#: incl/block-settings-main.php:436
+#: incl/block-settings-main.php:925
+#: incl/block-settings-main.php:971
+#: incl/block-settings-main.php:1283
+#: incl/block-settings-main.php:1530
+#: incl/block-settings-main.php:1775
+#: incl/block-styles/block-styles.php:1221
+#: incl/block-styles/block-styles.php:1338
+#: incl/block-styles/block-styles.php:1347
+#: incl/block-styles/block-styles.php:1533
+#: incl/block-styles/block-styles.php:1711
+#: assets/blocks/testimonial/block.jsx:406
+msgid "Left"
+msgstr ""
+
+#: incl/block-settings-main.php:444
+#: incl/block-settings-main.php:927
+#: incl/block-settings-main.php:973
+#: incl/block-settings-main.php:1287
+#: incl/block-settings-main.php:1538
+#: incl/block-settings-main.php:1783
+#: incl/block-styles/block-styles.php:1223
+#: incl/block-styles/block-styles.php:1339
+#: incl/block-styles/block-styles.php:1348
+#: incl/block-styles/block-styles.php:1535
+#: incl/block-styles/block-styles.php:1713
+msgid "Right"
+msgstr ""
+
+#: incl/block-settings-main.php:454
+#: incl/block-settings-main.php:1125
+#: incl/block-settings-main.php:2073
+msgid "Text Settings"
+msgstr ""
+
+#: incl/block-settings-main.php:466
+#: incl/block-settings-main.php:1865
+msgid "Icon Settings"
+msgstr ""
+
+#: incl/block-settings-main.php:469
+msgid "Icon style"
+msgstr ""
+
+#: incl/block-settings-main.php:478
+msgid "Pushpin"
+msgstr ""
+
+#: incl/block-settings-main.php:482
+msgid "Configuration"
+msgstr ""
+
+#: incl/block-settings-main.php:486
+msgid "Flag"
+msgstr ""
+
+#: incl/block-settings-main.php:490
+msgid "Star"
+msgstr ""
+
+#: incl/block-settings-main.php:494
+msgid "Checkmark"
+msgstr ""
+
+#: incl/block-settings-main.php:498
+msgid "Minus"
+msgstr ""
+
+#: incl/block-settings-main.php:506
+msgid "Play"
+msgstr ""
+
+#: incl/block-settings-main.php:510
+msgid "Arrow Right"
+msgstr ""
+
+#: incl/block-settings-main.php:514
+msgid "X Cross"
+msgstr ""
+
+#: incl/block-settings-main.php:518
+msgid "Warning"
+msgstr ""
+
+#: incl/block-settings-main.php:522
+msgid "Help"
+msgstr ""
+
+#: incl/block-settings-main.php:526
+msgid "Info"
+msgstr ""
+
+#: incl/block-settings-main.php:530
+msgid "Circle"
+msgstr ""
+
+#: incl/block-settings-main.php:536
+msgid "Icon color"
+msgstr ""
+
+#: incl/block-settings-main.php:541
+#: incl/block-settings-main.php:931
+#: incl/block-settings-main.php:1873
+msgid "Icon Size"
+msgstr ""
+
+#: incl/block-settings-main.php:548
+#: incl/block-styles/block-styles.php:1205
+#: incl/block-styles/block-styles.php:1507
+#: incl/block-styles/block-styles.php:1700
+#: incl/block-styles/block-styles.php:1754
+#: incl/block-styles/block-styles.php:1797
+msgid "Line Height"
+msgstr ""
+
+#: incl/block-settings-main.php:555
+#: incl/block-styles/block-styles.php:1069
+msgid "Margin"
+msgstr ""
+
+#: incl/block-settings-main.php:562
+#: incl/block-styles/block-styles.php:1039
+msgid "Padding"
+msgstr ""
+
+#: incl/block-settings-main.php:573
+msgid "Table Settings"
+msgstr ""
+
+#: incl/block-settings-main.php:576
+msgid "Max width"
+msgstr ""
+
+#: incl/block-settings-main.php:587
+msgid "Video Settings"
+msgstr ""
+
+#: incl/block-settings-main.php:590
+msgid "Open video in lightbox"
+msgstr ""
+
+#: incl/block-settings-main.php:600
+msgid "Video Width"
+msgstr ""
+
+#: incl/block-settings-main.php:607
+msgid "Video Height"
+msgstr ""
+
+#: incl/block-settings-main.php:612
+msgid "Custom Height"
+msgstr ""
+
+#: incl/block-settings-main.php:619
+msgid "Overlay color"
+msgstr ""
+
+#: incl/block-settings-main.php:626
+msgid "Play Button Settings"
+msgstr ""
+
+#: incl/block-settings-main.php:629
+msgid "Button Icon"
+msgstr ""
+
+#: incl/block-settings-main.php:634
+#: incl/block-settings-main.php:1305
+#: incl/block-styles/block-styles.php:978
+#: incl/block-styles/block-styles.php:1188
+msgid "Normal"
+msgstr ""
+
+#: incl/block-settings-main.php:638
+msgid "Filled Circle"
+msgstr ""
+
+#: incl/block-settings-main.php:642
+msgid "Outline Circle"
+msgstr ""
+
+#: incl/block-settings-main.php:646
+msgid "Video Camera"
+msgstr ""
+
+#: incl/block-settings-main.php:650
+msgid "Filled Square"
+msgstr ""
+
+#: incl/block-settings-main.php:654
+msgid "Star Sticker"
+msgstr ""
+
+#: incl/block-settings-main.php:660
+msgid "Button Size"
+msgstr ""
+
+#: incl/block-settings-main.php:667
+msgid "Button Color"
+msgstr ""
+
+#: incl/block-settings-main.php:676
+#: incl/block-settings-main.php:918
+#: incl/block-settings-main.php:949
+#: incl/block-settings-main.php:1077
+#: incl/block-settings-main.php:1793
+msgid "General Settings"
+msgstr ""
+
+#: incl/block-settings-main.php:679
+msgid "Number of columns"
+msgstr ""
+
+#: incl/block-settings-main.php:688
+#: incl/block-settings-main.php:1483
+msgid "Color Settings"
+msgstr ""
+
+#: incl/block-settings-main.php:691
+msgid "Header Color"
+msgstr ""
+
+#: incl/block-settings-main.php:696
+msgid "Count Up Color"
+msgstr ""
+
+#: incl/block-settings-main.php:701
+#: incl/block-settings-main.php:1138
+#: assets/blocks/testimonial/block.jsx:429
+msgid "Description Color"
+msgstr ""
+
+#: incl/block-settings-main.php:708
+msgid "Count Up Settings"
+msgstr ""
+
+#: incl/block-settings-main.php:711
+msgid "Count Up Number Size"
+msgstr ""
+
+#: incl/block-settings-main.php:722
+msgid "Location Settings"
+msgstr ""
+
+#: incl/block-settings-main.php:730
+msgid "Latitude"
+msgstr ""
+
+#: incl/block-settings-main.php:737
+msgid "Longitude"
+msgstr ""
+
+#: incl/block-settings-main.php:746
+msgid "Map Settings"
+msgstr ""
+
+#: incl/block-settings-main.php:749
+msgid "Zoom Level"
+msgstr ""
+
+#: incl/block-settings-main.php:763
+msgid "Map style"
+msgstr ""
+
+#: incl/block-settings-main.php:767
+msgid "Silver"
+msgstr ""
+
+#: incl/block-settings-main.php:768
+msgid "Retro"
+msgstr ""
+
+#: incl/block-settings-main.php:769
+#: incl/pages/settings/recaptcha.php:123
+msgid "Dark"
+msgstr ""
+
+#: incl/block-settings-main.php:770
+msgid "Night"
+msgstr ""
+
+#: incl/block-settings-main.php:771
+msgid "Aubergine"
+msgstr ""
+
+#: incl/block-settings-main.php:772
+msgid "Custom"
+msgstr ""
+
+#: incl/block-settings-main.php:778
+msgid "Marker Settings"
+msgstr ""
+
+#: incl/block-settings-main.php:781
+msgid "Marker Title"
+msgstr ""
+
+#: incl/block-settings-main.php:786
+msgid "Marker Description"
+msgstr ""
+
+#: incl/block-settings-main.php:795
+msgid "Icon 1 Settings"
+msgstr ""
+
+#: incl/block-settings-main.php:798
+#: incl/block-settings-main.php:839
+#: incl/block-settings-main.php:880
+msgid "Icon"
+msgstr ""
+
+#: incl/block-settings-main.php:802
+#: incl/block-settings-main.php:843
+#: incl/block-settings-main.php:884
+msgid "Blogger"
+msgstr ""
+
+#: incl/block-settings-main.php:803
+#: incl/block-settings-main.php:844
+#: incl/block-settings-main.php:885
+msgid "Facebook"
+msgstr ""
+
+#: incl/block-settings-main.php:804
+#: incl/block-settings-main.php:845
+#: incl/block-settings-main.php:886
+msgid "Flickr"
+msgstr ""
+
+#: incl/block-settings-main.php:805
+#: incl/block-settings-main.php:846
+#: incl/block-settings-main.php:887
+msgid "Google Plus"
+msgstr ""
+
+#: incl/block-settings-main.php:806
+#: incl/block-settings-main.php:847
+#: incl/block-settings-main.php:888
+msgid "Instagram"
+msgstr ""
+
+#: incl/block-settings-main.php:807
+#: incl/block-settings-main.php:848
+#: incl/block-settings-main.php:889
+msgid "LinkedIn"
+msgstr ""
+
+#: incl/block-settings-main.php:809
+#: incl/block-settings-main.php:850
+#: incl/block-settings-main.php:891
+msgid "Picasa"
+msgstr ""
+
+#: incl/block-settings-main.php:810
+#: incl/block-settings-main.php:851
+#: incl/block-settings-main.php:892
+msgid "Pinterest"
+msgstr ""
+
+#: incl/block-settings-main.php:811
+#: incl/block-settings-main.php:852
+#: incl/block-settings-main.php:893
+msgid "Reddit"
+msgstr ""
+
+#: incl/block-settings-main.php:812
+#: incl/block-settings-main.php:853
+#: incl/block-settings-main.php:894
+msgid "Skype"
+msgstr ""
+
+#: incl/block-settings-main.php:814
+#: incl/block-settings-main.php:855
+#: incl/block-settings-main.php:896
+msgid "Sound Cloud"
+msgstr ""
+
+#: incl/block-settings-main.php:817
+#: incl/block-settings-main.php:858
+#: incl/block-settings-main.php:899
+msgid "Tumblr"
+msgstr ""
+
+#: incl/block-settings-main.php:818
+#: incl/block-settings-main.php:859
+#: incl/block-settings-main.php:900
+msgid "Twitter"
+msgstr ""
+
+#: incl/block-settings-main.php:819
+#: incl/block-settings-main.php:860
+#: incl/block-settings-main.php:901
+msgid "Vimeo"
+msgstr ""
+
+#: incl/block-settings-main.php:820
+#: incl/block-settings-main.php:861
+#: incl/block-settings-main.php:902
+msgid "Youtube"
+msgstr ""
+
+#: incl/block-settings-main.php:824
+#: incl/block-settings-main.php:865
+#: incl/block-settings-main.php:906
+#: incl/block-settings-main.php:1868
+msgid "Icon Color"
+msgstr ""
+
+#: incl/block-settings-main.php:829
+#: incl/block-settings-main.php:870
+#: incl/block-settings-main.php:911
+msgid "Icon Link"
+msgstr ""
+
+#: incl/block-settings-main.php:836
+msgid "Icon 2 Settings"
+msgstr ""
+
+#: incl/block-settings-main.php:877
+msgid "Icon 3 Settings"
+msgstr ""
+
+#: incl/block-settings-main.php:921
+msgid "Icon Alignment"
+msgstr ""
+
+#: incl/block-settings-main.php:938
+msgid "Icon Space"
+msgstr ""
+
+#: incl/block-settings-main.php:952
+msgid "Load minimized"
+msgstr ""
+
+#: incl/block-settings-main.php:957
+msgid "Table of Contents header title"
+msgstr ""
+
+#: incl/block-settings-main.php:962
+msgid "Anchor color"
+msgstr ""
+
+#: incl/block-settings-main.php:967
+msgid "Table of Contents Alignment"
+msgstr ""
+
+#: incl/block-settings-main.php:981
+msgid "Tab Settings"
+msgstr ""
+
+#: incl/block-settings-main.php:984
+msgid "Tabs Style"
+msgstr ""
+
+#: incl/block-settings-main.php:989
+msgid "Horizontal"
+msgstr ""
+
+#: incl/block-settings-main.php:993
+msgid "Vertical"
+msgstr ""
+
+#: incl/block-settings-main.php:1011
+msgid "Active Tab Settings"
+msgstr ""
+
+#: incl/block-settings-main.php:1080
+#: incl/block-settings-main.php:1150
+#: assets/blocks/testimonial/block.jsx:241
+#: assets/blocks/woo-products/block.jsx:281
+msgid "Columns"
+msgstr ""
+
+#: incl/block-settings-main.php:1089
+msgid "Avatar Settings"
+msgstr ""
+
+#: incl/block-settings-main.php:1102
+#: assets/blocks/testimonial/block.jsx:380
+msgid "Border Radius (%)"
+msgstr ""
+
+#: incl/block-settings-main.php:1116
+#: assets/blocks/testimonial/block.jsx:394
+msgid "Avatar Size"
+msgstr ""
+
+#: incl/block-settings-main.php:1128
+#: assets/blocks/testimonial/block.jsx:419
+msgid "Name Color"
+msgstr ""
+
+#: incl/block-settings-main.php:1133
+#: assets/blocks/testimonial/block.jsx:424
+msgid "Position Color"
+msgstr ""
+
+#: incl/block-settings-main.php:1147
+#: assets/blocks/woo-products/block.jsx:278
+msgid "Layout Settings"
+msgstr ""
+
+#: incl/block-settings-main.php:1157
+#: assets/blocks/woo-products/block.jsx:289
+msgid "Number of Products"
+msgstr ""
+
+#: incl/block-settings-main.php:1168
+#: incl/block-settings-main.php:1324
+msgid "Text Label"
+msgstr ""
+
+#: incl/block-settings-main.php:1171
+msgid "Name placeholder"
+msgstr ""
+
+#: incl/block-settings-main.php:1176
+#: incl/block-settings-main.php:1337
+msgid "Email placeholder"
+msgstr ""
+
+#: incl/block-settings-main.php:1181
+msgid "Message placeholder"
+msgstr ""
+
+#: incl/block-settings-main.php:1186
+#: incl/block-settings-main.php:1342
+msgid "Submit label"
+msgstr ""
+
+#: incl/block-settings-main.php:1191
+#: incl/block-settings-main.php:1347
+msgid "Success text"
+msgstr ""
+
+#: incl/block-settings-main.php:1196
+#: incl/block-settings-main.php:1352
+msgid "Error text"
+msgstr ""
+
+#: incl/block-settings-main.php:1203
+#: incl/block-settings-main.php:1359
+msgid "Input Color"
+msgstr ""
+
+#: incl/block-settings-main.php:1254
+#: incl/block-settings-main.php:1410
+msgid "Submit Button Settings"
+msgstr ""
+
+#: incl/block-settings-main.php:1257
+#: incl/block-settings-main.php:1413
+msgid "Border and Text Color"
+msgstr ""
+
+#: incl/block-settings-main.php:1274
+msgid "Button Position"
+msgstr ""
+
+#: incl/block-settings-main.php:1297
+msgid "Form Settings"
+msgstr ""
+
+#: incl/block-settings-main.php:1300
+msgid "Form style"
+msgstr ""
+
+#: incl/block-settings-main.php:1309
+msgid "Alternative"
+msgstr ""
+
+#: incl/block-settings-main.php:1315
+msgid "Form width"
+msgstr ""
+
+#: incl/block-settings-main.php:1327
+msgid "First Name placeholder"
+msgstr ""
+
+#: incl/block-settings-main.php:1332
+msgid "Last Name placeholder"
+msgstr ""
+
+#: incl/block-settings-main.php:1434
+msgid "Images Settings"
+msgstr ""
+
+#: incl/block-settings-main.php:1442
+msgid "Open image in lightbox"
+msgstr ""
+
+#: incl/block-settings-main.php:1446
+msgid "Open custom link"
+msgstr ""
+
+#: incl/block-settings-main.php:1457
+msgid "Auto Height"
+msgstr ""
+
+#: incl/block-settings-main.php:1476
+msgid "Always show overlay"
+msgstr ""
+
+#: incl/block-settings-main.php:1486
+#: incl/block-styles/block-styles.php:1992
+msgid "Hover Color"
+msgstr ""
+
+#: incl/block-settings-main.php:1548
+msgid "Columns Settings"
+msgstr ""
+
+#: incl/block-settings-main.php:1551
+msgid "Space between column"
+msgstr ""
+
+#: incl/block-settings-main.php:1560
+#: incl/block-settings-main.php:1599
+msgid "10px"
+msgstr ""
+
+#: incl/block-settings-main.php:1564
+#: incl/block-settings-main.php:1603
+msgid "20px"
+msgstr ""
+
+#: incl/block-settings-main.php:1568
+#: incl/block-settings-main.php:1607
+msgid "30px"
+msgstr ""
+
+#: incl/block-settings-main.php:1572
+#: incl/block-settings-main.php:1611
+msgid "40px"
+msgstr ""
+
+#: incl/block-settings-main.php:1576
+#: incl/block-settings-main.php:1615
+msgid "50px"
+msgstr ""
+
+#: incl/block-settings-main.php:1580
+#: incl/block-settings-main.php:1619
+msgid "70px"
+msgstr ""
+
+#: incl/block-settings-main.php:1584
+#: incl/block-settings-main.php:1623
+msgid "90px"
+msgstr ""
+
+#: incl/block-settings-main.php:1590
+msgid "Vertical space when collapsed"
+msgstr ""
+
+#: incl/block-settings-main.php:1629
+msgid "Collapsed order RTL"
+msgstr ""
+
+#: incl/block-settings-main.php:1636
+msgid "Row Settings"
+msgstr ""
+
+#: incl/block-settings-main.php:1639
+msgid "Vertical Align"
+msgstr ""
+
+#: incl/block-settings-main.php:1648
+msgid "Middle"
+msgstr ""
+
+#: incl/block-settings-main.php:1656
+msgid "Full Height"
+msgstr ""
+
+#: incl/block-settings-main.php:1662
+msgid "Columns Wrapped"
+msgstr ""
+
+#: incl/block-settings-main.php:1667
+msgid "Wrapper Tag"
+msgstr ""
+
+#: incl/block-settings-main.php:1672
+msgid "Div"
+msgstr ""
+
+#: incl/block-settings-main.php:1676
+msgid "Header"
+msgstr ""
+
+#: incl/block-settings-main.php:1680
+msgid "Section"
+msgstr ""
+
+#: incl/block-settings-main.php:1684
+msgid "Main"
+msgstr ""
+
+#: incl/block-settings-main.php:1688
+msgid "Article"
+msgstr ""
+
+#: incl/block-settings-main.php:1692
+msgid "Aside"
+msgstr ""
+
+#: incl/block-settings-main.php:1696
+msgid "Footer"
+msgstr ""
+
+#: incl/block-settings-main.php:1702
+msgid "Content Max Width"
+msgstr ""
+
+#: incl/block-settings-main.php:1709
+msgid "Content Min Height"
+msgstr ""
+
+#: incl/block-settings-main.php:1723
+msgid "Border style"
+msgstr ""
+
+#: incl/block-settings-main.php:1767
+msgid "Column Settings"
+msgstr ""
+
+#: incl/block-settings-main.php:1770
+msgid "Text alignment"
+msgstr ""
+
+#: incl/block-settings-main.php:1796
+msgid "Number of icons"
+msgstr ""
+
+#: incl/block-settings-main.php:1808
+msgid "Container Settings"
+msgstr ""
+
+#: incl/block-settings-main.php:1962
+msgid "Title Settings"
+msgstr ""
+
+#: incl/block-settings-main.php:1970
+#: incl/block-settings-main.php:2081
+#: incl/block-styles/block-styles.php:1178
+#: incl/block-styles/block-styles.php:1500
+#: incl/block-styles/block-styles.php:1549
+#: incl/block-styles/block-styles.php:1584
+#: incl/block-styles/block-styles.php:1672
+#: incl/block-styles/block-styles.php:1726
+#: incl/block-styles/block-styles.php:1769
+#: incl/block-styles/block-styles.php:1812
+#: incl/block-styles/block-styles.php:1848
+#: incl/block-styles/block-styles.php:1884
+#: incl/block-styles/block-styles.php:1977
+msgid "Font Size (px)"
+msgstr ""
+
+#: incl/block-settings-main.php:1977
+#: incl/block-settings-main.php:2088
+msgid "Line Height (px)"
+msgstr ""
+
+#: incl/block-settings-main.php:1984
+msgid "HTML Tag"
+msgstr ""
+
+#: incl/block-settings-main.php:1989
+msgid "H1"
+msgstr ""
+
+#: incl/block-settings-main.php:1993
+msgid "H2"
+msgstr ""
+
+#: incl/block-settings-main.php:1997
+msgid "H3"
+msgstr ""
+
+#: incl/block-settings-main.php:2001
+msgid "H4"
+msgstr ""
+
+#: incl/block-settings-main.php:2005
+msgid "H5"
+msgstr ""
+
+#: incl/block-settings-main.php:2009
+msgid "H6"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:220
+msgid "Your styles have been saved!"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:260
+#: incl/pages/custom-styles.php:72
+msgid "Style title"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:296
+msgid "copy"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:979
+msgid "Bold"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:980
+msgid "Lighter"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:998
+msgid "Underline"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:999
+msgid "Overline"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1000
+msgid "Line Through"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1008
+msgid "Scale Up"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1009
+msgid "Scale Down"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1010
+msgid "Lift Up"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1011
+msgid "Shift Right"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1012
+msgid "Rotate"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1020
+#: incl/pages/custom-styles.php:149
+msgid "Colors"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1035
+#: incl/pages/custom-styles.php:152
+msgid "Spacing"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1042
+msgid "Padding Top (px)"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1048
+msgid "Padding Right (px)"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1054
+msgid "Padding Bottom (px)"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1060
+msgid "Padding Left (px)"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1072
+msgid "Margin Top (px)"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1077
+msgid "Margin Right (px)"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1082
+#: incl/block-styles/block-styles.php:1523
+#: incl/block-styles/block-styles.php:1694
+#: incl/block-styles/block-styles.php:1748
+#: incl/block-styles/block-styles.php:1791
+#: incl/block-styles/block-styles.php:1834
+#: incl/block-styles/block-styles.php:1870
+#: incl/block-styles/block-styles.php:1906
+msgid "Margin Bottom (px)"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1087
+msgid "Margin Left (px)"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1098
+msgid "Border Top Width (px)"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1104
+msgid "Border Right Width (px)"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1110
+msgid "Border Bottom Width (px)"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1116
+msgid "Border Left Width (px)"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1128
+msgid "Border Top Left Radius (px)"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1134
+msgid "Border Top Right Radius (px)"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1140
+msgid "Border Bottom Right Radius (px)"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1146
+msgid "Border Bottom Left Radius (px)"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1156
+#: incl/pages/custom-styles.php:155
+msgid "Typography"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1160
+msgid "Font"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1163
+msgid "Font Family"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1184
+msgid "Font Style"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1189
+msgid "Italic"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1190
+msgid "Oblique"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1194
+#: incl/block-styles/block-styles.php:1565
+#: incl/block-styles/block-styles.php:1684
+#: incl/block-styles/block-styles.php:1738
+#: incl/block-styles/block-styles.php:1785
+#: incl/block-styles/block-styles.php:1828
+#: incl/block-styles/block-styles.php:1864
+#: incl/block-styles/block-styles.php:1900
+#: incl/block-styles/block-styles.php:1971
+#: incl/block-styles/block-styles.php:2335
+msgid "Font Weight"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1202
+#: incl/pages/custom-styles.php:164
+msgid "Text"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1212
+msgid "Letter Spacing (px)"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1217
+#: incl/block-styles/block-styles.php:1529
+#: incl/block-styles/block-styles.php:1707
+msgid "Text Align"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1224
+#: incl/block-styles/block-styles.php:1536
+msgid "Justify"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1228
+#: incl/block-styles/block-styles.php:1961
+msgid "Text Decoration"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1233
+msgid "Text Transform"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1238
+msgid "Capitalize"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1239
+msgid "Uppercase"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1240
+msgid "Lowercase"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1244
+msgid "Text Shadow"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1253
+#: incl/pages/custom-styles.php:158
+msgid "Layout"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1257
+msgid "Display & Position"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1260
+msgid "Display"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1264
+msgid "Block"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1265
+msgid "Inline"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1266
+msgid "Inline Block"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1267
+msgid "Flex"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1268
+msgid "Grid"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1277
+msgid "Static"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1278
+msgid "Relative"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1279
+msgid "Absolute"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1280
+msgid "Fixed"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1281
+msgid "Sticky"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1288
+msgid "Sizing"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1291
+#: incl/block-styles/block-styles.php:2157
+msgid "Width (%)"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1298
+msgid "Height (px)"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1304
+msgid "Max Width (px)"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1310
+msgid "Min Width (px)"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1316
+msgid "Max Height (px)"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1322
+msgid "Min Height (px)"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1331
+msgid "Flow"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1334
+msgid "Float"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1343
+msgid "Clear"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1349
+msgid "Both"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1353
+msgid "Overflow"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1357
+msgid "Visible"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1358
+msgid "Hidden"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1359
+msgid "Scroll"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1360
+msgid "Auto"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1364
+msgid "Z-Index"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1372
+#: incl/block-styles/block-styles.php:2218
+#: incl/block-styles/block-styles.php:2254
+#: incl/block-styles/block-styles.php:2329
+#: incl/block-styles/block-styles.php:2398
+#: incl/pages/custom-styles.php:161
+msgid "Border"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1376
+msgid "Left Border"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1379
+msgid "Left Border Width (px)"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1385
+msgid "Left Border Style"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1393
+#: incl/block-styles/block-styles.php:1421
+#: incl/block-styles/block-styles.php:1449
+#: incl/block-styles/block-styles.php:1477
+msgid "Double"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1397
+msgid "Left Border Color"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1404
+msgid "Right Border"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1407
+msgid "Right Border Width (px)"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1413
+msgid "Right Border Style"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1425
+msgid "Right Border Color"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1432
+msgid "Top Border"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1435
+msgid "Top Border Width (px)"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1441
+msgid "Top Border Style"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1453
+msgid "Top Border Color"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1460
+msgid "Bottom Border"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1463
+msgid "Bottom Border Width (px)"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1469
+msgid "Bottom Border Style"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1481
+msgid "Bottom Border Color"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1492
+msgid "Text Elements"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1546
+msgid "Span"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1581
+msgid "Blockquote"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1610
+#: incl/block-styles/block-styles.php:2194
+#: incl/block-styles/block-styles.php:2247
+#: incl/block-styles/block-styles.php:2322
+#: incl/block-styles/block-styles.php:2415
+msgid "Padding (px)"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1617
+#: incl/block-styles/block-styles.php:2237
+msgid "Margin (px)"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1628
+msgid "Lists"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1631
+msgid "List Margin (px)"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1637
+msgid "List Padding (px)"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1648
+msgid "Item Margin Bottom (px)"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1654
+msgid "Item Text Color"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1664
+msgid "Heading Elements"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1669
+msgid "H1 Heading"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1723
+msgid "H2 Heading"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1766
+msgid "H3 Heading"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1809
+msgid "H4 Heading"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1845
+msgid "H5 Heading"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1881
+msgid "H6 Heading"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1917
+msgid "Heading Hover Effects"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1920
+msgid "H1 Hover Color"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1925
+msgid "H2 Hover Color"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1934
+msgid "H3 Hover Color"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1948
+msgid "Link Elements"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1953
+msgid "Link Base Styles"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1956
+msgid "Link Color"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1989
+msgid "Link Hover States"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:1997
+msgid "Hover Text Decoration"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:2007
+#: incl/block-styles/block-styles.php:2349
+msgid "Hover Background"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:2012
+msgid "Hover Font Weight"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:2023
+msgid "Links in Headings"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:2026
+msgid "H1 Link Color"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:2031
+msgid "H2 Link Color"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:2036
+msgid "H3 Link Color"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:2045
+msgid "H1 Link Hover Color"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:2050
+msgid "H2 Link Hover Color"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:2060
+msgid "Media Elements"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:2065
+#: incl/pages/settings.php:46
+msgid "Images"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:2068
+#: incl/block-styles/block-styles.php:2169
+#: incl/block-styles/block-styles.php:2201
+#: incl/block-styles/block-styles.php:2311
+#: incl/block-styles/block-styles.php:2408
+msgid "Border Radius (px)"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:2075
+msgid "Border Width (px)"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:2091
+msgid "Max Width (%)"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:2099
+#: incl/block-styles/block-styles.php:2212
+msgid "Box Shadow"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:2110
+msgid "Image Hover Effects"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:2113
+#: incl/block-styles/block-styles.php:2363
+msgid "Hover Transform"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:2119
+msgid "Hover Opacity"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:2131
+msgid "Hover Filter"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:2135
+msgid "Grayscale"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:2136
+msgid "Sepia"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:2137
+msgid "Blur"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:2138
+msgid "Brightness"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:2139
+msgid "Contrast"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:2144
+#: incl/block-styles/block-styles.php:2369
+msgid "Hover Border Color"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:2154
+msgid "Videos"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:2181
+msgid "Container Elements"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:2186
+msgid "Div Containers"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:2229
+msgid "Sections"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:2265
+msgid "Container Hover Effects"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:2268
+msgid "Div Hover Background"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:2273
+msgid "Div Hover Shadow"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:2283
+msgid "Section Hover Background"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:2293
+msgid "Interactive Elements"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:2298
+msgid "Buttons"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:2346
+msgid "Button Hover States"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:2354
+msgid "Hover Text Color"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:2374
+msgid "Hover Shadow"
+msgstr ""
+
+#: incl/block-styles/block-styles.php:2384
+msgid "Form Inputs"
+msgstr ""
+
+#: incl/pages/block-controls.php:14
+msgid "Controls saved successfully!"
+msgstr ""
+
+#: incl/pages/block-controls.php:16
+msgid "Blocks saved successfully!"
+msgstr ""
+
+#: incl/pages/block-controls.php:18
+#: incl/pages/settings.php:19
+msgid "Settings saved successfully!"
+msgstr ""
+
+#: incl/pages/block-controls.php:37
+msgid "Presets"
+msgstr ""
+
+#: incl/pages/block-controls.php:41
+msgid "Controls"
+msgstr ""
+
+#: incl/pages/block-controls.php:45
+msgid "Blocks"
+msgstr ""
+
+#: incl/pages/block-controls/blocks.php:18
+msgid "Enable or disable controls for all blocks"
+msgstr ""
+
+#: incl/pages/block-controls/blocks.php:46
+#: incl/pages/block-controls/blocks.php:71
+msgid "Save Blocks"
+msgstr ""
+
+#: incl/pages/block-controls/controls.php:27
+msgid "Schedule"
+msgstr ""
+
+#: incl/pages/block-controls/controls.php:38
+msgid "Choose when to start showing and/or stop showing your blocks."
+msgstr ""
+
+#: incl/pages/block-controls/controls.php:46
+#: incl/pages/block-controls/controls.php:79
+#: incl/pages/block-controls/controls.php:112
+#: incl/pages/block-controls/controls.php:145
+#: incl/pages/block-controls/controls.php:178
+#: incl/pages/block-controls/controls.php:209
+#: incl/pages/block-controls/controls.php:228
+#: incl/pages/block-controls/controls.php:246
+#: incl/pages/block-controls/controls.php:264
+#: incl/pages/block-controls/controls.php:282
+#: incl/pages/block-controls/controls.php:300
+#: incl/pages/block-controls/controls.php:318
+#: incl/pages/block-controls/controls.php:336
+msgid "This block control is available on:"
+msgstr ""
+
+#: incl/pages/block-controls/controls.php:48
+#: incl/pages/block-controls/controls.php:81
+#: incl/pages/block-controls/controls.php:114
+#: incl/pages/block-controls/controls.php:147
+#: incl/pages/block-controls/controls.php:229
+#: incl/pages/block-controls/controls.php:247
+#: incl/pages/block-controls/controls.php:265
+#: incl/pages/block-controls/controls.php:283
+#: incl/pages/block-controls/controls.php:301
+#: incl/pages/block-controls/controls.php:319
+#: incl/pages/block-controls/controls.php:337
+msgid "Post"
+msgstr ""
+
+#: incl/pages/block-controls/controls.php:50
+#: incl/pages/block-controls/controls.php:83
+#: incl/pages/block-controls/controls.php:116
+#: incl/pages/block-controls/controls.php:149
+#: incl/pages/block-controls/controls.php:180
+#: incl/pages/block-controls/controls.php:211
+#: incl/pages/block-controls/controls.php:230
+#: incl/pages/block-controls/controls.php:248
+#: incl/pages/block-controls/controls.php:266
+#: incl/pages/block-controls/controls.php:284
+#: incl/pages/block-controls/controls.php:302
+#: incl/pages/block-controls/controls.php:320
+#: incl/pages/block-controls/controls.php:338
+msgid "Widgets"
+msgstr ""
+
+#: incl/pages/block-controls/controls.php:52
+#: incl/pages/block-controls/controls.php:85
+#: incl/pages/block-controls/controls.php:118
+#: incl/pages/block-controls/controls.php:151
+#: incl/pages/block-controls/controls.php:182
+#: incl/pages/block-controls/controls.php:213
+#: incl/pages/block-controls/controls.php:231
+#: incl/pages/block-controls/controls.php:249
+#: incl/pages/block-controls/controls.php:267
+#: incl/pages/block-controls/controls.php:285
+#: incl/pages/block-controls/controls.php:303
+#: incl/pages/block-controls/controls.php:321
+#: incl/pages/block-controls/controls.php:339
+msgid "Site Editor"
+msgstr ""
+
+#: incl/pages/block-controls/controls.php:60
+msgid "User roles"
+msgstr ""
+
+#: incl/pages/block-controls/controls.php:71
+msgid "Choose which users can see your blocks."
+msgstr ""
+
+#: incl/pages/block-controls/controls.php:93
+msgid "Device Type"
+msgstr ""
+
+#: incl/pages/block-controls/controls.php:104
+msgid "Choose the device type to show your blocks on."
+msgstr ""
+
+#: incl/pages/block-controls/controls.php:126
+msgid "Device Width"
+msgstr ""
+
+#: incl/pages/block-controls/controls.php:137
+msgid "Choose the device width to show your blocks on."
+msgstr ""
+
+#: incl/pages/block-controls/controls.php:159
+msgid "Term archives"
+msgstr ""
+
+#: incl/pages/block-controls/controls.php:170
+msgid "Choose on which taxonomies and terms archive pages your blocks can be displayed."
+msgstr ""
+
+#: incl/pages/block-controls/controls.php:190
+msgid "Pages"
+msgstr ""
+
+#: incl/pages/block-controls/controls.php:201
+msgid "Choose in which pages your blocks can be displayed."
+msgstr ""
+
+#: incl/pages/block-controls/controls.php:220
+msgid "Browser & Device"
+msgstr ""
+
+#: incl/pages/block-controls/controls.php:225
+msgid "Choose which browsers and devices can see your blocks."
+msgstr ""
+
+#: incl/pages/block-controls/controls.php:238
+msgid "Operating System"
+msgstr ""
+
+#: incl/pages/block-controls/controls.php:243
+msgid "Choose which operating systems can see your blocks."
+msgstr ""
+
+#: incl/pages/block-controls/controls.php:256
+msgid "Cookie"
+msgstr ""
+
+#: incl/pages/block-controls/controls.php:261
+msgid "Show or hide blocks based on cookie values."
+msgstr ""
+
+#: incl/pages/block-controls/controls.php:274
+msgid "User Meta"
+msgstr ""
+
+#: incl/pages/block-controls/controls.php:279
+msgid "Show or hide blocks based on user meta values."
+msgstr ""
+
+#: incl/pages/block-controls/controls.php:292
+msgid "Post Meta"
+msgstr ""
+
+#: incl/pages/block-controls/controls.php:297
+msgid "Show or hide blocks based on post meta values."
+msgstr ""
+
+#: incl/pages/block-controls/controls.php:310
+msgid "Query String"
+msgstr ""
+
+#: incl/pages/block-controls/controls.php:315
+msgid "Show or hide blocks based on URL query parameters."
+msgstr ""
+
+#: incl/pages/block-controls/controls.php:328
+msgid "Capabilities"
+msgstr ""
+
+#: incl/pages/block-controls/controls.php:333
+msgid "Show or hide blocks based on user capabilities."
+msgstr ""
+
+#: incl/pages/block-controls/controls.php:353
+msgid "Save Controls"
+msgstr ""
+
+#: incl/pages/block-controls/presets-admin.php:12
+msgid "Loading presets..."
+msgstr ""
+
+#: incl/pages/block-settings.php:57
+msgid "Accordion - PublishPress"
+msgstr ""
+
+#: incl/pages/block-settings.php:58
+msgid "Button - PublishPress"
+msgstr ""
+
+#: incl/pages/block-settings.php:59
+msgid "Icon - PublishPress"
+msgstr ""
+
+#: incl/pages/block-settings.php:60
+msgid "Image - PublishPress"
+msgstr ""
+
+#: incl/pages/block-settings.php:61
+msgid "List - PublishPress"
+msgstr ""
+
+#: incl/pages/block-settings.php:62
+msgid "Table - PublishPress"
+msgstr ""
+
+#: incl/pages/block-settings.php:63
+msgid "Tabs - PublishPress"
+msgstr ""
+
+#: incl/pages/block-settings.php:64
+msgid "Video - PublishPress"
+msgstr ""
+
+#: incl/pages/block-settings.php:65
+msgid "Columns - PublishPress"
+msgstr ""
+
+#: incl/pages/block-settings.php:66
+msgid "Column - PublishPress"
+msgstr ""
+
+#: incl/pages/block-settings.php:67
+msgid "Contact Form - PublishPress"
+msgstr ""
+
+#: incl/pages/block-settings.php:68
+msgid "Count Up - PublishPress"
+msgstr ""
+
+#: incl/pages/block-settings.php:69
+msgid "Images Slider - PublishPress"
+msgstr ""
+
+#: incl/pages/block-settings.php:70
+msgid "Info Box - PublishPress"
+msgstr ""
+
+#: incl/pages/block-settings.php:71
+msgid "Map - PublishPress"
+msgstr ""
+
+#: incl/pages/block-settings.php:72
+msgid "Newsletter - PublishPress"
+msgstr ""
+
+#: incl/pages/block-settings.php:73
+msgid "Social Links - PublishPress"
+msgstr ""
+
+#: incl/pages/block-settings.php:74
+msgid "Table of Contents - PublishPress"
+msgstr ""
+
+#: incl/pages/block-settings.php:75
+#: assets/blocks/testimonial/block.jsx:672
+msgid "Testimonial - PublishPress"
+msgstr ""
+
+#: incl/pages/block-settings.php:76
+#: assets/blocks/woo-products/block.jsx:408
+msgid "Woo Products - PublishPress"
+msgstr ""
+
+#: incl/pages/block-settings.php:138
+#: incl/pages/settings/images.php:99
+msgid "Edit"
+msgstr ""
+
+#: incl/pages/block-settings.php:149
+msgid "No blocks available. Please go to a post edit (without saving either modifying anything). Then come back to Block Settings to see the blocks list."
+msgstr ""
+
+#: incl/pages/block-settings/block-config.php:14
+#: incl/pages/block-settings/block-config.php:30
+msgid "Save"
+msgstr ""
+
+#: incl/pages/block-settings/block-config.php:18
+msgid "block"
+msgstr ""
+
+#: incl/pages/custom-styles.php:12
+msgid "Add new style"
+msgstr ""
+
+#: incl/pages/custom-styles.php:27
+msgid "Delete"
+msgstr ""
+
+#: incl/pages/custom-styles.php:43
+msgid "Preview"
+msgstr ""
+
+#: incl/pages/custom-styles.php:47
+msgid "Example text with this style"
+msgstr ""
+
+#: incl/pages/custom-styles.php:55
+msgid "View Extended Preview"
+msgstr ""
+
+#: incl/pages/custom-styles.php:79
+msgid "Class name"
+msgstr ""
+
+#: incl/pages/custom-styles.php:88
+msgid ""
+"This option help you identify specific custom styles in the list\r\n"
+"                                            (usually set this same as the custom style's background color)"
+msgstr ""
+
+#: incl/pages/custom-styles.php:94
+msgid "Identification color"
+msgstr ""
+
+#: incl/pages/custom-styles.php:111
+#: incl/pages/custom-styles.php:143
+msgid "Style Builder"
+msgstr ""
+
+#: incl/pages/custom-styles.php:114
+#: incl/pages/custom-styles.php:125
+msgid "Custom CSS"
+msgstr ""
+
+#: incl/pages/custom-styles.php:131
+msgid "Hint: Use \"Ctrl + Space\" for auto completion"
+msgstr ""
+
+#: incl/pages/custom-styles.php:167
+msgid "Headings"
+msgstr ""
+
+#: incl/pages/custom-styles.php:170
+msgid "Links"
+msgstr ""
+
+#: incl/pages/custom-styles.php:173
+msgid "Media"
+msgstr ""
+
+#: incl/pages/custom-styles.php:176
+msgid "Containers"
+msgstr ""
+
+#: incl/pages/custom-styles.php:179
+msgid "Interactive"
+msgstr ""
+
+#: incl/pages/custom-styles.php:217
+msgid "Save styles"
+msgstr ""
+
+#: incl/pages/main.php:22
+msgid "You can control who can use each block, including default WordPress blocks."
+msgstr ""
+
+#: incl/pages/main.php:32
+msgid "Enable extra blocks including content displays, sliders, buttons, icons, tabs, accordions, and more."
+msgstr ""
+
+#: incl/pages/main.php:42
+msgid "You can add your own CSS styles for your blocks. Anyone editing posts can quickly add the styles to blocks."
+msgstr ""
+
+#: incl/pages/main.php:52
+msgid "This feature adds display controls for blocks. You can schedule when blocks are shown, and add user role restrictions."
+msgstr ""
+
+#: incl/pages/main.php:62
+msgid "You can scan the posts on your website for blocks usage."
+msgstr ""
+
+#: incl/pages/main.php:72
+msgid "This feature enables a submenu to manage your Reusable Blocks."
+msgstr ""
+
+#: incl/pages/main.php:82
+msgid "Automatically insert reusable blocks into posts based on position, categories, tags, and other criteria."
+msgstr ""
+
+#: incl/pages/main.php:90
+msgid "Core Blocks Features"
+msgstr ""
+
+#: incl/pages/main.php:91
+msgid "Add Google Fonts support to core blocks including paragraphs and headings."
+msgstr ""
+
+#: incl/pages/settings.php:37
+msgid "Block Features"
+msgstr ""
+
+#: incl/pages/settings.php:50
+msgid "Maps"
+msgstr ""
+
+#: incl/pages/settings.php:54
+msgid "Email & Forms"
+msgstr ""
+
+#: incl/pages/settings.php:58
+msgid "reCAPTCHA"
+msgstr ""
+
+#: incl/pages/settings.php:62
+msgid "Data Export"
+msgstr ""
+
+#: incl/pages/settings.php:72
+msgid "License"
+msgstr ""
+
+#: incl/pages/settings/block-features.php:17
+msgid "Select Role"
+msgstr ""
+
+#: incl/pages/settings/block-features.php:57
+msgid "Disable all block adding"
+msgstr ""
+
+#: incl/pages/settings/block-features.php:67
+#, php-format
+msgid "Prevent users in %1s role from adding new block to posts."
+msgstr ""
+
+#: incl/pages/settings/block-features.php:79
+msgid "Disable the Pattern Directory"
+msgstr ""
+
+#: incl/pages/settings/block-features.php:89
+#, php-format
+msgid "Disable the pattern directory for users in %1s role."
+msgstr ""
+
+#: incl/pages/settings/block-features.php:101
+msgid "Disable the Openverse"
+msgstr ""
+
+#: incl/pages/settings/block-features.php:111
+#, php-format
+msgid "Disable Openverse for users in %1s role."
+msgstr ""
+
+#: incl/pages/settings/block-features.php:127
+#: incl/pages/settings/images.php:122
+msgid "Save Image Settings"
+msgstr ""
+
+#: incl/pages/settings/data.php:18
+msgid "Download Contacts Form data"
+msgstr ""
+
+#: incl/pages/settings/data.php:24
+msgid "Data stored through Contact form blocks."
+msgstr ""
+
+#: incl/pages/settings/data.php:38
+#: incl/pages/settings/data.php:78
+msgid "CSV"
+msgstr ""
+
+#: incl/pages/settings/data.php:49
+#: incl/pages/settings/data.php:89
+msgid "JSON"
+msgstr ""
+
+#: incl/pages/settings/data.php:58
+msgid "Download Newsletter Form data"
+msgstr ""
+
+#: incl/pages/settings/data.php:64
+msgid "Data stored through Newsletter form blocks."
+msgstr ""
+
+#: incl/pages/settings/forms.php:38
+msgid "These email settings apply to messages sent through PublishPress Contact form block."
+msgstr ""
+
+#: incl/pages/settings/forms.php:48
+msgid "Sender name"
+msgstr ""
+
+#: incl/pages/settings/forms.php:65
+msgid "Sender email"
+msgstr ""
+
+#: incl/pages/settings/forms.php:82
+msgid "Email title"
+msgstr ""
+
+#: incl/pages/settings/forms.php:99
+msgid "Email receiver"
+msgstr ""
+
+#: incl/pages/settings/forms.php:122
+msgid "Save Form Settings"
+msgstr ""
+
+#: incl/pages/settings/general.php:49
+msgid "Display PublishPress branding"
+msgstr ""
+
+#: incl/pages/settings/general.php:50
+msgid "PublishPress logo and links in the footer of the admin pages"
+msgstr ""
+
+#: incl/pages/settings/general.php:59
+msgid "Enable blocks spacing"
+msgstr ""
+
+#: incl/pages/settings/general.php:70
+msgid "Vertical spacing between blocks"
+msgstr ""
+
+#: incl/pages/settings/general.php:81
+msgid "Blocks spacing"
+msgstr ""
+
+#: incl/pages/settings/general.php:101
+msgid "Blocks icon color"
+msgstr ""
+
+#: incl/pages/settings/general.php:116
+msgid "Apply in admin to blocks from PublishPress Blocks plugin."
+msgstr ""
+
+#: incl/pages/settings/general.php:127
+msgid "Gutenberg editor width"
+msgstr ""
+
+#: incl/pages/settings/general.php:140
+msgid "Large"
+msgstr ""
+
+#: incl/pages/settings/general.php:155
+msgid "Enable columns visual guide"
+msgstr ""
+
+#: incl/pages/settings/general.php:166
+msgid "Visual guide for PublishPress Blocks Columns block"
+msgstr ""
+
+#: incl/pages/settings/general.php:177
+msgid "Remove autop"
+msgstr ""
+
+#: incl/pages/settings/general.php:188
+msgid "Autop WordPress function is used to prevent unwanted paragraphs to be added"
+msgstr ""
+
+#: incl/pages/settings/general.php:204
+msgid "Save General Settings"
+msgstr ""
+
+#: incl/pages/settings/images.php:25
+msgid "Open galleries in lightbox"
+msgstr ""
+
+#: incl/pages/settings/images.php:36
+msgid "Open gallery images as a lightbox style popup"
+msgstr ""
+
+#: incl/pages/settings/images.php:47
+msgid "Image caption"
+msgstr ""
+
+#: incl/pages/settings/images.php:55
+msgid "Disabled"
+msgstr ""
+
+#: incl/pages/settings/images.php:65
+msgid "Overlay"
+msgstr ""
+
+#: incl/pages/settings/images.php:71
+msgid "Display caption text on images loaded as lightbox in galleries."
+msgstr ""
+
+#: incl/pages/settings/images.php:82
+msgid "Default thumbnail"
+msgstr ""
+
+#: incl/pages/settings/images.php:101
+msgid "Reset to default"
+msgstr ""
+
+#: incl/pages/settings/images.php:106
+msgid "Set the default post thumbnail to use in Content Display blocks for posts without featured image."
+msgstr ""
+
+#: incl/pages/settings/maps.php:15
+msgid "Google API key"
+msgstr ""
+
+#: incl/pages/settings/maps.php:31
+msgid "How to create a Google API Key"
+msgstr ""
+
+#: incl/pages/settings/maps.php:38
+msgid "A Google API key is required to use the Map block without any warning."
+msgstr ""
+
+#: incl/pages/settings/maps.php:54
+msgid "Save Maps Settings"
+msgstr ""
+
+#: incl/pages/settings/recaptcha.php:17
+#, php-format
+msgid "Use the Google reCAPTCHA to avoid spam in PublishPress Blocks forms. Get credentials for your domain by registering %shere%s."
+msgstr ""
+
+#: incl/pages/settings/recaptcha.php:30
+msgid "Enable reCAPTCHA"
+msgstr ""
+
+#: incl/pages/settings/recaptcha.php:47
+msgid "Site key"
+msgstr ""
+
+#: incl/pages/settings/recaptcha.php:49
+#: incl/pages/settings/recaptcha.php:68
+msgid "required"
+msgstr ""
+
+#: incl/pages/settings/recaptcha.php:66
+msgid "Secret key"
+msgstr ""
+
+#: incl/pages/settings/recaptcha.php:85
+msgid "Language"
+msgstr ""
+
+#: incl/pages/settings/recaptcha.php:93
+msgid "Auto detect"
+msgstr ""
+
+#: incl/pages/settings/recaptcha.php:102
+msgid "Language codes list"
+msgstr ""
+
+#: incl/pages/settings/recaptcha.php:110
+msgid "Theme"
+msgstr ""
+
+#: incl/pages/settings/recaptcha.php:118
+msgid "Light"
+msgstr ""
+
+#: incl/pages/settings/recaptcha.php:128
+msgid "Invisible"
+msgstr ""
+
+#: incl/pages/settings/recaptcha.php:134
+msgid "We strongly recommend not using Invisible reCAPTCHA if you have more than 1 Newsletter or Contact forms block in a page."
+msgstr ""
+
+#: incl/pages/settings/recaptcha.php:151
+msgid "Save reCAPTCHA Settings"
+msgstr ""
+
+#: incl/utilities-main.php:40
+msgid "Countdown"
+msgstr ""
+
+#: incl/utilities-main.php:41
+msgid "Easily create a customizable countdown."
+msgstr ""
+
+#: incl/utilities-main.php:50
+msgid "Pricing Table"
+msgstr ""
+
+#: incl/utilities-main.php:51
+msgid "Easily create a customizable pricing table."
+msgstr ""
+
+#: incl/utilities-main.php:60
+msgid "Feature"
+msgstr ""
+
+#: incl/utilities-main.php:61
+#: incl/utilities-main.php:72
+msgid "Use block to create a list inside the Feature List\" block."
+msgstr ""
+
+#: incl/utilities-main.php:71
+msgid "Feature List"
+msgstr ""
+
+#: install.php:23
+msgid "Gutenberg is not detected! Activate it or"
+msgstr ""
+
+#: install.php:24
+msgid "Install Gutenberg Now!"
+msgstr ""
+
+#: install.php:35
+msgid "We require at least Gutenberg version "
+msgstr ""
+
+#: install.php:37
+msgid "Please update Gutenberg then comeback later!"
+msgstr ""
+
+#: assets/blocks/testimonial/block.jsx:230
+msgid "Testimonial"
+msgstr ""
+
+#: assets/blocks/testimonial/block.jsx:234
+msgid "Testimonial Settings"
+msgstr ""
+
+#: assets/blocks/testimonial/block.jsx:236
+msgid "Slider view"
+msgstr ""
+
+#: assets/blocks/testimonial/block.jsx:241
+msgid "Number of items"
+msgstr ""
+
+#: assets/blocks/testimonial/block.jsx:242
+msgid "Range in Normal view is 1-3, and in Slider view is 4-10."
+msgstr ""
+
+#: assets/blocks/testimonial/block.jsx:251
+msgid "Items to show"
+msgstr ""
+
+#: assets/blocks/testimonial/block.jsx:258
+msgid "Items to scroll"
+msgstr ""
+
+#: assets/blocks/testimonial/block.jsx:264
+msgid "Slider Settings"
+msgstr ""
+
+#: assets/blocks/testimonial/block.jsx:266
+msgid "Center mode"
+msgstr ""
+
+#: assets/blocks/testimonial/block.jsx:271
+msgid "Pause on hover"
+msgstr ""
+
+#: assets/blocks/testimonial/block.jsx:276
+msgid "Auto play"
+msgstr ""
+
+#: assets/blocks/testimonial/block.jsx:282
+msgid "Autoplay speed (ms)"
+msgstr ""
+
+#: assets/blocks/testimonial/block.jsx:290
+msgid "Infinite Loop"
+msgstr ""
+
+#: assets/blocks/testimonial/block.jsx:295
+msgid "Transition speed (ms)"
+msgstr ""
+
+#: assets/blocks/testimonial/block.jsx:302
+msgid "Show dots"
+msgstr ""
+
+#: assets/blocks/testimonial/block.jsx:307
+msgid "Show arrows"
+msgstr ""
+
+#: assets/blocks/testimonial/block.jsx:314
+msgid "Arrow size"
+msgstr ""
+
+#: assets/blocks/testimonial/block.jsx:321
+msgid "Arrow border size"
+msgstr ""
+
+#: assets/blocks/testimonial/block.jsx:328
+msgid "Arrow border radius (%)"
+msgstr ""
+
+#: assets/blocks/testimonial/block.jsx:338
+msgid "Slider Colors"
+msgstr ""
+
+#: assets/blocks/testimonial/block.jsx:342
+msgid "Arrow and Border Color"
+msgstr ""
+
+#: assets/blocks/testimonial/block.jsx:347
+msgid "Dots Color"
+msgstr ""
+
+#: assets/blocks/testimonial/block.jsx:355
+msgid "Avatar"
+msgstr ""
+
+#: assets/blocks/testimonial/block.jsx:357
+msgid "Display Avatar"
+msgstr ""
+
+#: assets/blocks/testimonial/block.jsx:364
+msgid "Avatar Colors"
+msgstr ""
+
+#: assets/blocks/testimonial/block.jsx:401
+msgid "Avatar Position"
+msgstr ""
+
+#: assets/blocks/testimonial/block.jsx:407
+msgid "right"
+msgstr ""
+
+#: assets/blocks/testimonial/block.jsx:415
+msgid "Text Colors"
+msgstr ""
+
+#: assets/blocks/testimonial/block.jsx:454
+msgid "Click to change avatar"
+msgstr ""
+
+#: assets/blocks/testimonial/block.jsx:468
+msgid "Show default avatar"
+msgstr ""
+
+#: assets/blocks/testimonial/block.jsx:486
+#: assets/blocks/testimonial/block.jsx:497
+#: assets/blocks/testimonial/block.jsx:508
+msgid "Text…"
+msgstr ""
+
+#: assets/blocks/testimonial/block.jsx:673
+msgid "Block for creating personal or team/group information."
+msgstr ""
+
+#: assets/blocks/testimonial/block.jsx:679
+msgid "testimonial"
+msgstr ""
+
+#: assets/blocks/testimonial/block.jsx:679
+msgid "personal"
+msgstr ""
+
+#: assets/blocks/testimonial/block.jsx:679
+msgid "about"
+msgstr ""
+
+#: assets/blocks/woo-products/block.jsx:209
+msgid "Normal View"
+msgstr ""
+
+#: assets/blocks/woo-products/block.jsx:215
+msgid "Slider View"
+msgstr ""
+
+#: assets/blocks/woo-products/block.jsx:233
+msgid "Woo Products"
+msgstr ""
+
+#: assets/blocks/woo-products/block.jsx:240
+msgid "Products Settings"
+msgstr ""
+
+#: assets/blocks/woo-products/block.jsx:242
+msgid "Product Status"
+msgstr ""
+
+#: assets/blocks/woo-products/block.jsx:245
+#: assets/blocks/woo-products/block.jsx:255
+msgid "All"
+msgstr ""
+
+#: assets/blocks/woo-products/block.jsx:246
+msgid "Featured"
+msgstr ""
+
+#: assets/blocks/woo-products/block.jsx:247
+msgid "On Sale"
+msgstr ""
+
+#: assets/blocks/woo-products/block.jsx:252
+msgid "Category"
+msgstr ""
+
+#: assets/blocks/woo-products/block.jsx:256
+msgid "Selected"
+msgstr ""
+
+#: assets/blocks/woo-products/block.jsx:296
+msgid "Order"
+msgstr ""
+
+#: assets/blocks/woo-products/block.jsx:299
+msgid "Newest to oldest"
+msgstr ""
+
+#: assets/blocks/woo-products/block.jsx:300
+msgid "Oldest to newest"
+msgstr ""
+
+#: assets/blocks/woo-products/block.jsx:301
+msgid "Price: high to low"
+msgstr ""
+
+#: assets/blocks/woo-products/block.jsx:302
+msgid "Price: low to high"
+msgstr ""
+
+#: assets/blocks/woo-products/block.jsx:303
+msgid "Highest Rating first"
+msgstr ""
+
+#: assets/blocks/woo-products/block.jsx:304
+msgid "Most sale first"
+msgstr ""
+
+#: assets/blocks/woo-products/block.jsx:305
+msgid "Title: Alphabetical"
+msgstr ""
+
+#: assets/blocks/woo-products/block.jsx:306
+msgid "Title: Alphabetical reversed"
+msgstr ""
+
+#: assets/blocks/woo-products/block.jsx:329
+msgid "Add to cart"
+msgstr ""
+
+#: assets/blocks/woo-products/block.jsx:335
+msgid "No products found."
+msgstr ""
+
+#: assets/blocks/woo-products/block.jsx:339
+msgid "Loading"
+msgstr ""
+
+#: assets/blocks/woo-products/block.jsx:346
+msgid "Woo Products Block"
+msgstr ""
+
+#: assets/blocks/woo-products/block.jsx:349
+msgid "WooCommerce has not been detected, make sure WooCommerce is installed and activated."
+msgstr ""
+
+#: assets/blocks/woo-products/block.jsx:355
+msgid "Try again"
+msgstr ""
+
+#: assets/blocks/woo-products/block.jsx:409
+msgid "Listing your products in a easy way."
+msgstr ""
+
+#: assets/blocks/woo-products/block.jsx:415
+msgid "woo commerce"
+msgstr ""
+
+#: assets/blocks/woo-products/block.jsx:415
+msgid "products list"
+msgstr ""
+
+#: assets/blocks/woo-products/block.jsx:415
+msgid "price list"
+msgstr ""
+
+#: assets/js/main.js:112
+msgid "Changes saved!"
+msgstr ""
+
+#: assets/js/main.js:113
+msgid " Error: changes can't be saved."
+msgstr ""
+
+#: assets/js/settings.js:110
+msgid "Edit block"
+msgstr ""
+
+#: assets/js/settings.js:110
+msgid "default config"
+msgstr ""

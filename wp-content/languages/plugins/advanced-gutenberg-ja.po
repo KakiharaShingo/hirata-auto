@@ -1,0 +1,1032 @@
+# Translation of Plugins - Gutenberg Blocks &#8211; PublishPress Blocks Gutenberg Editor Plugin - Stable (latest release) in Japanese
+# This file is distributed under the same license as the Plugins - Gutenberg Blocks &#8211; PublishPress Blocks Gutenberg Editor Plugin - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-10-30 13:45:34+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Plugins - Gutenberg Blocks &#8211; PublishPress Blocks Gutenberg Editor Plugin - Stable (latest release)\n"
+
+#: incl/pages/block-controls.php:41
+msgid "Blocks"
+msgstr "ブロック"
+
+#: incl/advanced-gutenberg-main.php:916 incl/pages/main.php:121
+#: assets/blocks/block-controls.js:588 assets/blocks/blocks.js:459
+#: assets/blocks/pro-ad.js:80
+msgid "Upgrade to Pro"
+msgstr "プロ版にアップグレード"
+
+#: incl/pages/block-controls/controls.php:114
+#: assets/blocks/block-controls.js:1928
+msgid "Pages"
+msgstr "固定ページ"
+
+#: incl/block-settings-main.php:1982 assets/blocks/blocks.js:13553
+msgid "H1"
+msgstr "H1"
+
+#: incl/block-settings-main.php:1986 assets/blocks/blocks.js:13554
+msgid "H2"
+msgstr "H2"
+
+#: incl/block-settings-main.php:1990 assets/blocks/blocks.js:13555
+msgid "H3"
+msgstr "H3"
+
+#: incl/block-settings-main.php:1994 assets/blocks/blocks.js:13556
+msgid "H4"
+msgstr "H4"
+
+#: incl/block-settings-main.php:1998 assets/blocks/blocks.js:13557
+msgid "H5"
+msgstr "H5"
+
+#: incl/block-settings-main.php:2002 assets/blocks/blocks.js:13558
+msgid "H6"
+msgstr "H6"
+
+#: incl/block-settings-main.php:1963 incl/block-settings-main.php:2074
+msgid "Font Size (px)"
+msgstr "フォントサイズ (px)"
+
+#: incl/block-settings-main.php:982 assets/blocks/blocks.js:7254
+msgid "Horizontal"
+msgstr "水平"
+
+#: incl/block-settings-main.php:986 assets/blocks/blocks.js:7255
+msgid "Vertical"
+msgstr "垂直"
+
+#: incl/advanced-gutenberg-main.php:1835 assets/blocks/blocks.js:14715
+msgid "Dashboard"
+msgstr "ダッシュボード"
+
+#: incl/block-controls-main.php:961 assets/blocks/blocks.js:14714
+msgid "Home"
+msgstr "ホーム"
+
+#: incl/advanced-gutenberg-main.php:4333
+msgid "User registration is currently not allowed."
+msgstr "現在、ユーザー登録はできません。"
+
+#: incl/block-settings-main.php:1553 incl/block-settings-main.php:1592
+msgid "10px"
+msgstr "10px"
+
+#: incl/block-settings-main.php:1557 incl/block-settings-main.php:1596
+msgid "20px"
+msgstr "20px"
+
+#: incl/block-settings-main.php:1561 incl/block-settings-main.php:1600
+msgid "30px"
+msgstr "30px"
+
+#: incl/block-settings-main.php:1685
+msgid "Aside"
+msgstr "アサイド"
+
+#: incl/block-settings-main.php:1267
+msgid "Button Position"
+msgstr "ボタンの位置"
+
+#: incl/block-settings-main.php:1689
+msgid "Footer"
+msgstr "フッター"
+
+#: incl/block-settings-main.php:1649
+msgid "Full Height"
+msgstr "最大の高さ"
+
+#: incl/block-settings-main.php:1669
+msgid "Header"
+msgstr "ヘッダー"
+
+#: incl/pages/settings/general.php:138 assets/blocks/post-sidebar.js:22
+msgid "Large"
+msgstr "大"
+
+#: incl/block-settings-main.php:1677
+msgid "Main"
+msgstr "メイン"
+
+#: incl/block-settings-main.php:1641
+msgid "Middle"
+msgstr "中央"
+
+#: incl/block-settings-main.php:1673
+msgid "Section"
+msgstr "セクション"
+
+#: incl/block-settings-main.php:1760 assets/blocks/blocks.js:10539
+msgid "Column Settings"
+msgstr "カラム設定"
+
+#: incl/block-settings-main.php:760
+msgid "Silver"
+msgstr "シルバー"
+
+#: incl/block-settings-main.php:762 incl/pages/settings/recaptcha.php:123
+msgid "Dark"
+msgstr "ダーク"
+
+#: incl/block-settings-main.php:356
+msgid "Open link in a new tab"
+msgstr "リンクを新しいタブで開く"
+
+#: incl/block-settings-main.php:765 assets/blocks/blocks.js:14716
+#: assets/blocks/blocks.js:16874
+msgid "Custom"
+msgstr "カスタム"
+
+#: incl/pages/settings/recaptcha.php:30
+msgid "Enable reCAPTCHA"
+msgstr "reCaptcha を有効化"
+
+#: incl/pages/settings/recaptcha.php:49 incl/pages/settings/recaptcha.php:68
+msgid "required"
+msgstr "必須"
+
+#: incl/advanced-gutenberg-main.php:1428
+msgid "Message"
+msgstr "メッセージ"
+
+#: incl/block-settings-main.php:1479 assets/blocks/blocks.js:12398
+msgid "Hover Color"
+msgstr "ホバーの色"
+
+#: incl/block-settings-main.php:1140 assets/blocks/blocks.js:23169
+msgid "Layout Settings"
+msgstr "レイアウト設定"
+
+#: assets/blocks/recent-posts/block.php:413 assets/blocks/blocks.js:18985
+msgid "Read More"
+msgstr "続きを読む"
+
+#: install.php:24
+msgid "Install Gutenberg Now!"
+msgstr "今すぐ Gutenberg をインストール"
+
+#: install.php:23
+msgid "Gutenberg is not detected! Activate it or"
+msgstr "Gutenberg が検出されませんでした。有効化または"
+
+#: incl/advanced-gutenberg-main.php:1426
+msgid "Date"
+msgstr "日付"
+
+#: incl/block-controls-main.php:973 assets/blocks/block-controls.js:1783
+#: assets/blocks/block-controls.js:1962
+msgid "Search"
+msgstr "検索"
+
+#: incl/pages/custom-styles.php:111 assets/blocks/blocks.js:2615
+#: assets/blocks/blocks.js:4093
+msgid "Preview"
+msgstr "プレビュー"
+
+#: incl/pages/block-settings.php:123 incl/pages/settings/images.php:99
+msgid "Edit"
+msgstr "編集"
+
+#: incl/pages/custom-styles.php:34
+msgid "Delete"
+msgstr "削除"
+
+#: incl/block-settings-main.php:1126 assets/blocks/blocks.js:22435
+msgid "Position Color"
+msgstr "位置の色"
+
+#: incl/block-settings-main.php:1121 assets/blocks/blocks.js:22430
+msgid "Name Color"
+msgstr "名前の色"
+
+#: incl/block-settings-main.php:1082
+msgid "Avatar Settings"
+msgstr "アバター設定"
+
+#: incl/block-settings-main.php:1073 incl/block-settings-main.php:1143
+#: assets/blocks/blocks.js:11529 assets/blocks/blocks.js:18404
+#: assets/blocks/blocks.js:22252 assets/blocks/blocks.js:23172
+msgid "Columns"
+msgstr "カラム"
+
+#: incl/block-settings-main.php:914
+msgid "Icon Alignment"
+msgstr "アイコンの配置"
+
+#: incl/block-settings-main.php:822 incl/block-settings-main.php:863
+#: incl/block-settings-main.php:904
+msgid "Icon Link"
+msgstr "アイコンのリンク"
+
+#: incl/block-settings-main.php:817 incl/block-settings-main.php:858
+#: incl/block-settings-main.php:899 incl/block-settings-main.php:1861
+#: assets/blocks/blocks.js:797 assets/blocks/blocks.js:1294
+#: assets/blocks/blocks.js:2016 assets/blocks/blocks.js:2839
+#: assets/blocks/blocks.js:3473 assets/blocks/blocks.js:13400
+msgid "Icon Color"
+msgstr "アイコンの色"
+
+#: incl/block-settings-main.php:813 incl/block-settings-main.php:854
+#: incl/block-settings-main.php:895
+msgid "Youtube"
+msgstr "YouTube"
+
+#: incl/block-settings-main.php:812 incl/block-settings-main.php:853
+#: incl/block-settings-main.php:894
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: incl/block-settings-main.php:811 incl/block-settings-main.php:852
+#: incl/block-settings-main.php:893
+msgid "Twitter"
+msgstr "Twitter"
+
+#: incl/block-settings-main.php:810 incl/block-settings-main.php:851
+#: incl/block-settings-main.php:892
+msgid "Tumblr"
+msgstr "Tumblr"
+
+#: incl/block-settings-main.php:805 incl/block-settings-main.php:846
+#: incl/block-settings-main.php:887
+msgid "Skype"
+msgstr "Skype"
+
+#: incl/block-settings-main.php:804 incl/block-settings-main.php:845
+#: incl/block-settings-main.php:886
+msgid "Reddit"
+msgstr "Reddit"
+
+#: incl/block-settings-main.php:803 incl/block-settings-main.php:844
+#: incl/block-settings-main.php:885
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: incl/block-settings-main.php:802 incl/block-settings-main.php:843
+#: incl/block-settings-main.php:884
+msgid "Picasa"
+msgstr "Picasa"
+
+#: incl/block-settings-main.php:800 incl/block-settings-main.php:841
+#: incl/block-settings-main.php:882
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: incl/block-settings-main.php:799 incl/block-settings-main.php:840
+#: incl/block-settings-main.php:881
+msgid "Instagram"
+msgstr "Instagram"
+
+#: incl/block-settings-main.php:797 incl/block-settings-main.php:838
+#: incl/block-settings-main.php:879
+msgid "Flickr"
+msgstr "Flickr"
+
+#: incl/block-settings-main.php:796 incl/block-settings-main.php:837
+#: incl/block-settings-main.php:878
+msgid "Facebook"
+msgstr "Facebook"
+
+#: incl/block-settings-main.php:795 incl/block-settings-main.php:836
+#: incl/block-settings-main.php:877
+msgid "Blogger"
+msgstr "Blogger"
+
+#: incl/block-settings-main.php:791 incl/block-settings-main.php:832
+#: incl/block-settings-main.php:873 assets/blocks/blocks.js:2808
+msgid "Icon"
+msgstr "アイコン"
+
+#: incl/block-settings-main.php:779
+msgid "Marker Description"
+msgstr "マーカーの説明"
+
+#: incl/block-settings-main.php:774 assets/blocks/blocks.js:16850
+msgid "Marker Title"
+msgstr "タイトル"
+
+#: incl/block-settings-main.php:742
+msgid "Zoom Level"
+msgstr "ズームレベル"
+
+#: incl/block-settings-main.php:739
+msgid "Map Settings"
+msgstr "地図設定"
+
+#: incl/block-settings-main.php:730 assets/blocks/blocks.js:16792
+msgid "Longitude"
+msgstr "経度"
+
+#: incl/block-settings-main.php:723 assets/blocks/blocks.js:16786
+msgid "Latitude"
+msgstr "緯度"
+
+#: incl/block-settings-main.php:715
+msgid "Location Settings"
+msgstr "位置の設定"
+
+#: incl/block-settings-main.php:684 assets/blocks/blocks.js:11512
+#: assets/blocks/blocks.js:14760
+msgid "Header Color"
+msgstr "ヘッダーの色"
+
+#: incl/block-settings-main.php:660
+msgid "Button Color"
+msgstr "ボタンの色"
+
+#: incl/block-settings-main.php:627 incl/block-settings-main.php:1298
+msgid "Normal"
+msgstr "通常"
+
+#: incl/block-settings-main.php:622
+msgid "Button Icon"
+msgstr "ボタンのアイコン"
+
+#: incl/block-settings-main.php:612
+msgid "Overlay color"
+msgstr "オーバーレイの色"
+
+#: incl/block-settings-main.php:605
+msgid "Video Height"
+msgstr "動画の高さ"
+
+#: incl/block-settings-main.php:598
+msgid "Video Width"
+msgstr "動画の幅"
+
+#: incl/block-settings-main.php:585 assets/blocks/blocks.js:8853
+msgid "Video Settings"
+msgstr "動画設定"
+
+#: incl/block-settings-main.php:574
+msgid "Max width"
+msgstr "最大幅"
+
+#: incl/block-settings-main.php:560 assets/blocks/blocks.js:2725
+#: assets/blocks/blocks.js:3541 assets/blocks/blocks.js:4912
+#: assets/blocks/blocks.js:6581 assets/blocks/blocks.js:9924
+#: assets/blocks/blocks.js:10617 assets/blocks/blocks.js:13350
+#: assets/blocks/blocks.js:13436 assets/blocks/blocks.js:13563
+#: assets/blocks/blocks.js:13677
+msgid "Padding"
+msgstr "パディング"
+
+#: incl/block-settings-main.php:553 assets/blocks/blocks.js:2695
+#: assets/blocks/blocks.js:3575 assets/blocks/blocks.js:4904
+#: assets/blocks/blocks.js:9950 assets/blocks/blocks.js:10632
+#: assets/blocks/blocks.js:13467 assets/blocks/blocks.js:13594
+#: assets/blocks/blocks.js:13708
+msgid "Margin"
+msgstr "マージン"
+
+#: incl/block-settings-main.php:546 assets/blocks/blocks.js:13542
+#: assets/blocks/blocks.js:13669
+msgid "Line Height"
+msgstr "行の高さ"
+
+#: incl/block-settings-main.php:534 assets/blocks/blocks.js:4875
+msgid "Icon color"
+msgstr "アイコンの色"
+
+#: incl/block-settings-main.php:528 assets/blocks/blocks.js:4798
+msgid "Circle"
+msgstr "円形"
+
+#: incl/block-settings-main.php:524 assets/blocks/blocks.js:4796
+msgid "Info"
+msgstr "情報"
+
+#: incl/block-settings-main.php:520 assets/blocks/blocks.js:4795
+msgid "Help"
+msgstr "ヘルプ"
+
+#: incl/block-settings-main.php:516 assets/blocks/blocks.js:4794
+msgid "Warning"
+msgstr "警告"
+
+#: incl/block-settings-main.php:508
+msgid "Arrow Right"
+msgstr "右矢印"
+
+#: incl/block-settings-main.php:504 assets/blocks/blocks.js:4789
+msgid "Play"
+msgstr "再生"
+
+#: incl/block-settings-main.php:496 assets/blocks/blocks.js:4785
+msgid "Minus"
+msgstr "マイナス"
+
+#: incl/block-settings-main.php:492 assets/blocks/blocks.js:4782
+msgid "Checkmark"
+msgstr "チェックマーク"
+
+#: incl/block-settings-main.php:488 assets/blocks/blocks.js:4781
+msgid "Star"
+msgstr "星"
+
+#: incl/block-settings-main.php:484 assets/blocks/blocks.js:4780
+msgid "Flag"
+msgstr "旗"
+
+#: incl/block-settings-main.php:342 incl/block-settings-main.php:472
+#: incl/block-settings-main.php:1549 incl/block-settings-main.php:1588
+#: incl/block-settings-main.php:1721 assets/blocks/blocks.js:2456
+#: assets/blocks/blocks.js:4081 assets/blocks/blocks.js:4777
+#: assets/blocks/blocks.js:6559 assets/blocks/blocks.js:7703
+#: assets/blocks/blocks.js:8899 assets/blocks/blocks.js:9435
+#: assets/blocks/blocks.js:10443 assets/blocks/blocks.js:12349
+#: assets/blocks/blocks.js:17692
+msgid "None"
+msgstr "なし"
+
+#: incl/block-settings-main.php:464 incl/block-settings-main.php:1858
+#: assets/blocks/blocks.js:4854 assets/blocks/blocks.js:13382
+msgid "Icon Settings"
+msgstr "アイコンの設定"
+
+#: incl/block-settings-main.php:442 incl/block-settings-main.php:920
+#: incl/block-settings-main.php:966 incl/block-settings-main.php:1280
+#: incl/block-settings-main.php:1531 incl/block-settings-main.php:1776
+#: assets/blocks/blocks.js:2848 assets/blocks/blocks.js:4189
+#: assets/blocks/blocks.js:11087 assets/blocks/blocks.js:12431
+#: assets/blocks/blocks.js:14871 assets/blocks/blocks.js:18455
+msgid "Right"
+msgstr "右"
+
+#: incl/block-settings-main.php:434 incl/block-settings-main.php:918
+#: incl/block-settings-main.php:964 incl/block-settings-main.php:1276
+#: incl/block-settings-main.php:1523 incl/block-settings-main.php:1768
+#: assets/blocks/blocks.js:2847 assets/blocks/blocks.js:4187
+#: assets/blocks/blocks.js:11086 assets/blocks/blocks.js:12429
+#: assets/blocks/blocks.js:14870 assets/blocks/blocks.js:18454
+#: assets/blocks/blocks.js:22417
+msgid "Left"
+msgstr "左"
+
+#: incl/block-settings-main.php:423 incl/block-settings-main.php:1512
+#: incl/block-settings-main.php:1645 incl/pages/settings/images.php:60
+#: assets/blocks/blocks.js:4179 assets/blocks/blocks.js:12421
+#: assets/blocks/blocks.js:22416
+msgid "Bottom"
+msgstr "下"
+
+#: incl/block-settings-main.php:419 incl/block-settings-main.php:438
+#: incl/block-settings-main.php:919 incl/block-settings-main.php:965
+#: incl/block-settings-main.php:1272 incl/block-settings-main.php:1508
+#: incl/block-settings-main.php:1527 incl/block-settings-main.php:1772
+#: assets/blocks/blocks.js:4178 assets/blocks/blocks.js:4188
+#: assets/blocks/blocks.js:11085 assets/blocks/blocks.js:12420
+#: assets/blocks/blocks.js:12430 assets/blocks/blocks.js:14869
+msgid "Center"
+msgstr "中央"
+
+#: incl/block-settings-main.php:415 incl/block-settings-main.php:1504
+#: incl/block-settings-main.php:1637 assets/blocks/blocks.js:4177
+#: assets/blocks/blocks.js:12419 assets/blocks/blocks.js:22415
+msgid "Top"
+msgstr "上"
+
+#: incl/block-settings-main.php:400 assets/blocks/blocks.js:4166
+#: assets/blocks/blocks.js:8934 assets/blocks/blocks.js:18475
+msgid "Overlay Color"
+msgstr "オーバーレイの色"
+
+#: incl/block-settings-main.php:390 incl/block-settings-main.php:1484
+#: incl/block-settings-main.php:1958 assets/blocks/blocks.js:4156
+#: assets/blocks/blocks.js:12403
+msgid "Title Color"
+msgstr "タイトルの色"
+
+#: incl/block-settings-main.php:387 incl/block-settings-main.php:2069
+#: assets/blocks/blocks.js:13503 assets/blocks/blocks.js:13630
+msgid "Color"
+msgstr "色"
+
+#: incl/block-settings-main.php:378 incl/block-settings-main.php:1455
+#: assets/blocks/blocks.js:4122 assets/blocks/blocks.js:12367
+#: assets/blocks/blocks.js:20077
+msgid "Width"
+msgstr "幅"
+
+#: incl/block-settings-main.php:371 incl/block-settings-main.php:749
+#: incl/block-settings-main.php:1462 assets/blocks/blocks.js:4114
+#: assets/blocks/blocks.js:12376 assets/blocks/blocks.js:16805
+msgid "Height"
+msgstr "高さ"
+
+#: incl/block-settings-main.php:366 incl/block-settings-main.php:593
+#: incl/block-settings-main.php:1445 incl/pages/settings/general.php:143
+#: assets/blocks/blocks.js:4109 assets/blocks/blocks.js:8907
+#: assets/blocks/blocks.js:12356 assets/blocks/blocks.js:20071
+#: assets/blocks/post-sidebar.js:23
+msgid "Full width"
+msgstr "全幅"
+
+#: incl/block-settings-main.php:323
+msgid "Transition Speed"
+msgstr "遷移速度"
+
+#: incl/block-settings-main.php:316
+msgid "Shadow Spread"
+msgstr "影の広がり"
+
+#: incl/block-settings-main.php:309
+msgid "Shadow Blur"
+msgstr "影のぼかし"
+
+#: incl/block-settings-main.php:290 assets/blocks/blocks.js:2499
+msgid "Shadow Color"
+msgstr "影の色"
+
+#: incl/block-settings-main.php:268 incl/block-settings-main.php:1842
+#: incl/block-settings-main.php:1911 incl/block-settings-main.php:2022
+#: incl/block-settings-main.php:2102 assets/blocks/blocks.js:6604
+msgid "Padding Left"
+msgstr "左部の余白(Padding)"
+
+#: incl/block-settings-main.php:261 incl/block-settings-main.php:1835
+#: incl/block-settings-main.php:1904 incl/block-settings-main.php:2015
+#: incl/block-settings-main.php:2095 assets/blocks/blocks.js:6597
+msgid "Padding Bottom"
+msgstr "下パディング"
+
+#: incl/block-settings-main.php:254 incl/block-settings-main.php:1849
+#: incl/block-settings-main.php:1918 incl/block-settings-main.php:2029
+#: incl/block-settings-main.php:2109 assets/blocks/blocks.js:6590
+msgid "Padding Right"
+msgstr "右パディング"
+
+#: incl/block-settings-main.php:247 incl/block-settings-main.php:1828
+#: incl/block-settings-main.php:1897 incl/block-settings-main.php:2008
+#: incl/block-settings-main.php:2088 assets/blocks/blocks.js:6583
+msgid "Padding Top"
+msgstr "上パディング"
+
+#: incl/block-settings-main.php:149 incl/block-settings-main.php:455
+msgid "Text Size"
+msgstr "テキストのサイズ"
+
+#: incl/block-settings-main.php:128 incl/block-settings-main.php:195
+#: incl/block-settings-main.php:1052 incl/block-settings-main.php:1102
+#: incl/block-settings-main.php:1744 incl/block-settings-main.php:1814
+#: incl/block-settings-main.php:1883 assets/blocks/blocks.js:22398
+msgid "Border Width"
+msgstr "枠線の幅"
+
+#: incl/block-settings-main.php:113 incl/block-settings-main.php:180
+#: incl/block-settings-main.php:1042 incl/block-settings-main.php:1228
+#: incl/block-settings-main.php:1384 incl/block-settings-main.php:1733
+#: assets/blocks/blocks.js:826 assets/blocks/blocks.js:1323
+#: assets/blocks/blocks.js:2045 assets/blocks/blocks.js:2459
+#: assets/blocks/blocks.js:6557 assets/blocks/blocks.js:7705
+#: assets/blocks/blocks.js:10446 assets/blocks/blocks.js:11044
+#: assets/blocks/blocks.js:14834 assets/blocks/blocks.js:17294
+#: assets/blocks/blocks.js:21693
+msgid "Dashed"
+msgstr "破線"
+
+#: incl/block-settings-main.php:104 incl/block-settings-main.php:171
+#: incl/block-settings-main.php:1037 incl/block-settings-main.php:1219
+#: incl/block-settings-main.php:1375 assets/blocks/blocks.js:822
+#: assets/blocks/blocks.js:1319 assets/blocks/blocks.js:2041
+#: assets/blocks/blocks.js:6553 assets/blocks/blocks.js:7700
+#: assets/blocks/blocks.js:11040 assets/blocks/blocks.js:14830
+#: assets/blocks/blocks.js:17290 assets/blocks/blocks.js:21689
+msgid "Border Style"
+msgstr "枠線のスタイル"
+
+#: incl/block-settings-main.php:123 incl/block-settings-main.php:190
+#: incl/block-settings-main.php:1047 incl/block-settings-main.php:1090
+#: incl/block-settings-main.php:1214 incl/block-settings-main.php:1370
+#: incl/block-settings-main.php:1739 incl/block-settings-main.php:1809
+#: incl/block-settings-main.php:1878 assets/blocks/blocks.js:836
+#: assets/blocks/blocks.js:1333 assets/blocks/blocks.js:2055
+#: assets/blocks/blocks.js:2675 assets/blocks/blocks.js:2679
+#: assets/blocks/blocks.js:3489 assets/blocks/blocks.js:6571
+#: assets/blocks/blocks.js:6574 assets/blocks/blocks.js:7711
+#: assets/blocks/blocks.js:7715 assets/blocks/blocks.js:10561
+#: assets/blocks/blocks.js:10565 assets/blocks/blocks.js:11029
+#: assets/blocks/blocks.js:13331 assets/blocks/blocks.js:13417
+#: assets/blocks/blocks.js:14819 assets/blocks/blocks.js:17279
+#: assets/blocks/blocks.js:21699 assets/blocks/blocks.js:21703
+#: assets/blocks/blocks.js:22384
+msgid "Border Color"
+msgstr "枠線の色"
+
+#: incl/block-settings-main.php:73
+msgid "Arrow Down"
+msgstr "下矢印"
+
+#: incl/block-settings-main.php:49 incl/block-settings-main.php:500
+#: assets/blocks/blocks.js:4787
+msgid "Plus"
+msgstr "プラス"
+
+#: incl/block-settings-main.php:34 incl/block-settings-main.php:89
+#: incl/block-settings-main.php:161 incl/block-settings-main.php:285
+#: incl/block-settings-main.php:992 incl/block-settings-main.php:1007
+#: incl/block-settings-main.php:1022 incl/block-settings-main.php:1085
+#: incl/block-settings-main.php:1199 incl/block-settings-main.php:1255
+#: incl/block-settings-main.php:1355 incl/block-settings-main.php:1411
+#: incl/block-settings-main.php:1804 incl/block-settings-main.php:1873
+#: assets/blocks/blocks.js:787 assets/blocks/blocks.js:809
+#: assets/blocks/blocks.js:1284 assets/blocks/blocks.js:1306
+#: assets/blocks/blocks.js:2006 assets/blocks/blocks.js:2028
+#: assets/blocks/blocks.js:2489 assets/blocks/blocks.js:2645
+#: assets/blocks/blocks.js:6531 assets/blocks/blocks.js:7661
+#: assets/blocks/blocks.js:7687 assets/blocks/blocks.js:21650
+#: assets/blocks/blocks.js:21676 assets/blocks/blocks.js:22379
+msgid "Background Color"
+msgstr "背景色"
+
+#: incl/block-settings-main.php:31 assets/blocks/blocks.js:767
+#: assets/blocks/blocks.js:1264 assets/blocks/blocks.js:1986
+msgid "Header Settings"
+msgstr "ヘッダー設定"
+
+#: incl/pages/settings/general.php:99
+msgid "Blocks icon color"
+msgstr "ブロックアイコンの色"
+
+#: incl/advanced-gutenberg-main.php:3197
+#: incl/pages/block-controls/blocks.php:13 incl/pages/block-settings.php:97
+msgid "Search blocks"
+msgstr "ブロックを検索"
+
+#: incl/pages/custom-styles.php:12
+msgid "Your styles have been saved!"
+msgstr "スタイルを保存しました"
+
+#: incl/pages/block-settings/block-config.php:18
+msgid "block"
+msgstr "ブロック"
+
+#: incl/block-settings-main.php:1109 assets/blocks/blocks.js:22405
+msgid "Avatar Size"
+msgstr "アバターのサイズ"
+
+#: incl/block-settings-main.php:1095 assets/blocks/blocks.js:22391
+msgid "Border Radius (%)"
+msgstr "枠線の角丸み (%)"
+
+#: incl/block-settings-main.php:974
+msgid "Tab Settings"
+msgstr "タブの設定"
+
+#: incl/block-settings-main.php:955
+msgid "Anchor color"
+msgstr "アンカーの色"
+
+#: incl/block-settings-main.php:931
+msgid "Icon Space"
+msgstr "アイコンの余白"
+
+#: incl/block-settings-main.php:870
+msgid "Icon 3 Settings"
+msgstr "アイコン3の設定"
+
+#: incl/block-settings-main.php:829
+msgid "Icon 2 Settings"
+msgstr "アイコン2の設定"
+
+#: incl/block-settings-main.php:807 incl/block-settings-main.php:848
+#: incl/block-settings-main.php:889
+msgid "Sound Cloud"
+msgstr "サウンドクラウド"
+
+#: incl/block-settings-main.php:788
+msgid "Icon 1 Settings"
+msgstr "アイコン1の設定"
+
+#: incl/block-settings-main.php:771
+msgid "Marker Settings"
+msgstr "マーカーの設定"
+
+#: incl/block-settings-main.php:647
+msgid "Star Sticker"
+msgstr "星ステッカー"
+
+#: incl/block-settings-main.php:639
+msgid "Video Camera"
+msgstr "ビデオカメラ"
+
+#: incl/block-settings-main.php:619
+msgid "Play Button Settings"
+msgstr "再生ボタンの設定"
+
+#: incl/block-settings-main.php:588
+msgid "Open video in lightbox"
+msgstr "Lightbox で動画を開く"
+
+#: incl/block-settings-main.php:476 assets/blocks/blocks.js:4778
+msgid "Pushpin"
+msgstr "プッシュピン"
+
+#: incl/block-settings-main.php:467
+msgid "Icon style"
+msgstr "アイコンのスタイル"
+
+#: incl/block-settings-main.php:395 assets/blocks/blocks.js:4161
+msgid "Subtitle Color"
+msgstr "サブタイトルの色"
+
+#: incl/block-settings-main.php:302
+msgid "Shadow V Offset"
+msgstr "水直方向の影オフセット"
+
+#: incl/block-settings-main.php:295
+msgid "Shadow H Offset"
+msgstr "水平方向の影オフセット"
+
+#: incl/block-settings-main.php:277
+msgid "Hover Settings"
+msgstr "ホバーの設定"
+
+#: incl/block-settings-main.php:244
+msgid "Padding Settings"
+msgstr "パディングの設定"
+
+#: incl/block-settings-main.php:146
+msgid "Text and Color"
+msgstr "テキストと色"
+
+#: incl/block-settings-main.php:86 incl/block-settings-main.php:1019
+msgid "Body Settings"
+msgstr "本文の設定"
+
+#: incl/block-settings-main.php:79
+msgid "Header Icon Color"
+msgstr "見出しアイコンの色"
+
+#: incl/advanced-gutenberg-main.php:3552 incl/advanced-gutenberg-main.php:3553
+msgid "Block Config"
+msgstr "ブロックの構成"
+
+#: incl/advanced-gutenberg-main.php:1121 incl/advanced-gutenberg-main.php:1249
+#: incl/advanced-gutenberg-main.php:1303 incl/advanced-gutenberg-main.php:1362
+#: incl/advanced-gutenberg-main.php:1453
+msgid "Invalid nonce token!"
+msgstr "nonce トークンが無効です。"
+
+#: incl/advanced-gutenberg-main.php:1114 incl/advanced-gutenberg-main.php:1238
+#: incl/advanced-gutenberg-main.php:1297
+msgid "No permission!"
+msgstr "権限がありません"
+
+#: incl/block-settings-main.php:512 assets/blocks/blocks.js:4793
+msgid "X Cross"
+msgstr "X クロス"
+
+#: incl/block-settings-main.php:701 assets/blocks/blocks.js:11506
+msgid "Count Up Settings"
+msgstr "カウントアップ設定"
+
+#: incl/block-settings-main.php:689 assets/blocks/blocks.js:11517
+msgid "Count Up Color"
+msgstr "カウントアップの色"
+
+#: incl/block-settings-main.php:704
+msgid "Count Up Number Size"
+msgstr "カウントアップの番号サイズ"
+
+#: incl/block-settings-main.php:945 assets/blocks/blocks.js:21253
+msgid "Load minimized"
+msgstr "最小化して読み込む"
+
+#: incl/block-settings-main.php:1004
+msgid "Active Tab Settings"
+msgstr "有効タブの設定"
+
+#: incl/advanced-gutenberg-main.php:4069
+msgid "Type field not defined"
+msgstr "タイプフィールドが定義されていません"
+
+#: incl/block-settings-main.php:69
+msgid "Horizontal Dots"
+msgstr "水平ドット"
+
+#: incl/block-settings-main.php:65
+msgid "Unfold Arrow"
+msgstr "展開矢印"
+
+#: incl/block-settings-main.php:635
+msgid "Outline Circle"
+msgstr "枠のみの正方形"
+
+#: incl/block-settings-main.php:643
+msgid "Filled Square"
+msgstr "塗りつぶしの正方形"
+
+#: incl/block-settings-main.php:631
+msgid "Filled Circle"
+msgstr "塗りつぶしの丸"
+
+#: incl/block-settings-main.php:135 incl/block-settings-main.php:202
+#: incl/block-settings-main.php:1059 incl/block-settings-main.php:1238
+#: incl/block-settings-main.php:1260 incl/block-settings-main.php:1394
+#: incl/block-settings-main.php:1416 incl/block-settings-main.php:1751
+#: incl/block-settings-main.php:1821 incl/block-settings-main.php:1890
+msgid "Border Radius"
+msgstr "枠線の丸み"
+
+#: incl/block-settings-main.php:653
+msgid "Button Size"
+msgstr "ボタンサイズ"
+
+#: incl/block-settings-main.php:681 incl/block-settings-main.php:1476
+#: assets/blocks/blocks.js:783 assets/blocks/blocks.js:832
+#: assets/blocks/blocks.js:1280 assets/blocks/blocks.js:1329
+#: assets/blocks/blocks.js:2002 assets/blocks/blocks.js:2051
+#: assets/blocks/blocks.js:2757 assets/blocks/blocks.js:4152
+#: assets/blocks/blocks.js:6528 assets/blocks/blocks.js:8930
+#: assets/blocks/blocks.js:11059 assets/blocks/blocks.js:11508
+#: assets/blocks/blocks.js:12395 assets/blocks/blocks.js:17309
+msgid "Color Settings"
+msgstr "色の設定"
+
+#: incl/pages/custom-styles.php:33
+msgid "Copy"
+msgstr "コピー"
+
+#: incl/advanced-gutenberg-main.php:4055 incl/pages/settings/general.php:133
+#: assets/blocks/blocks.js:3077 assets/blocks/blocks.js:3460
+#: assets/blocks/blocks.js:6812 assets/blocks/blocks.js:17213
+#: assets/blocks/blocks.js:18107 assets/blocks/blocks.js:18214
+#: assets/blocks/blocks.js:20378
+msgid "Default"
+msgstr "デフォルト"
+
+#: incl/block-settings-main.php:694 incl/block-settings-main.php:1131
+#: assets/blocks/blocks.js:11522 assets/blocks/blocks.js:22440
+msgid "Description Color"
+msgstr "説明文の色"
+
+#: incl/block-settings-main.php:117 incl/block-settings-main.php:184
+#: incl/block-settings-main.php:1043 incl/block-settings-main.php:1232
+#: incl/block-settings-main.php:1388 incl/block-settings-main.php:1729
+#: assets/blocks/blocks.js:827 assets/blocks/blocks.js:1324
+#: assets/blocks/blocks.js:2046 assets/blocks/blocks.js:2458
+#: assets/blocks/blocks.js:6558 assets/blocks/blocks.js:7706
+#: assets/blocks/blocks.js:10445 assets/blocks/blocks.js:11045
+#: assets/blocks/blocks.js:14835 assets/blocks/blocks.js:17295
+#: assets/blocks/blocks.js:21694
+msgid "Dotted"
+msgstr "ドット"
+
+#: incl/block-settings-main.php:669 incl/block-settings-main.php:911
+#: incl/block-settings-main.php:942 incl/block-settings-main.php:1070
+#: incl/block-settings-main.php:1786
+msgid "General Settings"
+msgstr "一般設定"
+
+#: incl/block-settings-main.php:798 incl/block-settings-main.php:839
+#: incl/block-settings-main.php:880
+msgid "Google Plus"
+msgstr "Google+"
+
+#: incl/block-settings-main.php:44
+msgid "Header Icon"
+msgstr "ヘッダーアイコン"
+
+#: incl/block-settings-main.php:539 incl/block-settings-main.php:924
+#: incl/block-settings-main.php:1866 assets/blocks/blocks.js:3466
+msgid "Icon Size"
+msgstr "アイコンサイズ"
+
+#: incl/block-settings-main.php:363 assets/blocks/blocks.js:4107
+msgid "Image Size"
+msgstr "画像サイズ"
+
+#: incl/block-settings-main.php:672
+msgid "Number of columns"
+msgstr "カラム数"
+
+#: incl/block-settings-main.php:109 incl/block-settings-main.php:176
+#: incl/block-settings-main.php:1041 incl/block-settings-main.php:1224
+#: incl/block-settings-main.php:1380 incl/block-settings-main.php:1725
+#: assets/blocks/blocks.js:825 assets/blocks/blocks.js:1322
+#: assets/blocks/blocks.js:2044 assets/blocks/blocks.js:2457
+#: assets/blocks/blocks.js:6556 assets/blocks/blocks.js:7704
+#: assets/blocks/blocks.js:10444 assets/blocks/blocks.js:11043
+#: assets/blocks/blocks.js:14833 assets/blocks/blocks.js:17293
+#: assets/blocks/blocks.js:21692
+msgid "Solid"
+msgstr "単色"
+
+#: incl/block-settings-main.php:407 incl/block-settings-main.php:1496
+#: assets/blocks/blocks.js:4172 assets/blocks/blocks.js:6611
+#: assets/blocks/blocks.js:12414
+msgid "Text Alignment"
+msgstr "テキスト配置"
+
+#: incl/block-settings-main.php:452 incl/block-settings-main.php:1118
+#: incl/block-settings-main.php:2066 assets/blocks/blocks.js:4843
+#: assets/blocks/blocks.js:13626
+msgid "Text Settings"
+msgstr "テキスト設定"
+
+#: incl/block-settings-main.php:39 incl/block-settings-main.php:94
+#: incl/block-settings-main.php:156 incl/block-settings-main.php:280
+#: incl/block-settings-main.php:997 incl/block-settings-main.php:1012
+#: incl/block-settings-main.php:1027 incl/block-settings-main.php:1204
+#: incl/block-settings-main.php:1360 incl/block-settings-main.php:1489
+#: assets/blocks/blocks.js:792 assets/blocks/blocks.js:814
+#: assets/blocks/blocks.js:1289 assets/blocks/blocks.js:1311
+#: assets/blocks/blocks.js:2011 assets/blocks/blocks.js:2033
+#: assets/blocks/blocks.js:2494 assets/blocks/blocks.js:2651
+#: assets/blocks/blocks.js:6536 assets/blocks/blocks.js:7666
+#: assets/blocks/blocks.js:7692 assets/blocks/blocks.js:12408
+#: assets/blocks/blocks.js:21655 assets/blocks/blocks.js:21681
+msgid "Text Color"
+msgstr "文字色"
+
+#: incl/block-settings-main.php:410 incl/block-settings-main.php:1499
+#: assets/blocks/blocks.js:4174 assets/blocks/blocks.js:12416
+msgid "Vertical Alignment"
+msgstr "縦方向の位置揃え"
+
+#: incl/block-settings-main.php:571 assets/blocks/blocks.js:6496
+msgid "Table Settings"
+msgstr "表の設定"
+
+#: incl/block-settings-main.php:101 incl/block-settings-main.php:168
+#: incl/block-settings-main.php:1034 incl/block-settings-main.php:1211
+#: incl/block-settings-main.php:1367 incl/block-settings-main.php:1713
+#: assets/blocks/blocks.js:820 assets/blocks/blocks.js:1317
+#: assets/blocks/blocks.js:2039 assets/blocks/blocks.js:7698
+#: assets/blocks/blocks.js:10551 assets/blocks/blocks.js:11027
+#: assets/blocks/blocks.js:14817 assets/blocks/blocks.js:17277
+#: assets/blocks/blocks.js:21687
+msgid "Border Settings"
+msgstr "枠線設定"
+
+#: incl/pages/settings/general.php:57
+msgid "Enable blocks spacing"
+msgstr "ブロック余白を有効化"
+
+#: incl/pages/settings/general.php:79
+msgid "Blocks spacing"
+msgstr "ブロックの余白"
+
+#: incl/pages/settings/maps.php:15
+msgid "Google API key"
+msgstr "Google API キー"
+
+#: incl/pages/settings/maps.php:31
+msgid "How to create a Google API Key"
+msgstr "Google API Key の作成方法"
+
+#: incl/pages/custom-styles.php:86
+msgid "Custom CSS"
+msgstr "カスタム CSS"
+
+#: incl/pages/custom-styles.php:105
+msgid "Save styles"
+msgstr "スタイルを保存"
+
+#: incl/pages/custom-styles.php:72
+msgid "Identification color"
+msgstr "識別色"
+
+#: incl/pages/custom-styles.php:92
+msgid "Hint: Use \"Ctrl + Space\" for auto completion"
+msgstr "ヒント: 自動補完を有効化するには \"Ctrl + スペース\" を使ってください"
+
+#: incl/pages/settings/images.php:47
+msgid "Image caption"
+msgstr "画像キャプション"
+
+#: incl/pages/block-controls.php:18 incl/pages/settings.php:15
+msgid "Settings saved successfully!"
+msgstr "設定を保存しました"
+
+#: incl/pages/block-settings/block-config.php:14
+#: incl/pages/block-settings/block-config.php:30
+msgid "Save"
+msgstr "保存"
+
+#: incl/advanced-gutenberg-main.php:1422
+msgid "Name"
+msgstr "名前"
+
+#: incl/pages/settings/images.php:25
+msgid "Open galleries in lightbox"
+msgstr "ギャラリーを Lightbox で開く"
+
+#: incl/pages/settings/images.php:36
+msgid "Open gallery images as a lightbox style popup"
+msgstr "ギャラリー画像を Lightbox スタイルのポップアップで開く"
+
+#: incl/advanced-gutenberg-main.php:1424 incl/block-settings-main.php:801
+#: incl/block-settings-main.php:842 incl/block-settings-main.php:883
+msgid "Email"
+msgstr "メール"
+
+#: incl/block-settings-main.php:480 assets/blocks/blocks.js:4779
+msgid "Configuration"
+msgstr "設定"
