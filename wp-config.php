@@ -25,17 +25,30 @@
 // を使用し、必ず UTF-8 の BOM なし (UTF-8N) で保存してください。
 
 // ** MySQL 設定 - この情報はホスティング先から入手してください。 ** //
-/** WordPress のためのデータベース名 */
-define('DB_NAME', 'LAA1256459-hirata');
+if (getenv('IS_DOCKER')) {
+  // Docker環境用の設定
+  define('DB_NAME', 'local_wp_db');
+  define('DB_USER', 'wp_user');
+  define('DB_PASSWORD', 'wp_password');
+  define('DB_HOST', 'db');
 
-/** MySQL データベースのユーザー名 */
-define('DB_USER', 'LAA1256459');
+  // サイトURLをローカルに向ける
+  define('WP_HOME', 'http://localhost:8000');
+  define('WP_SITEURL', 'http://localhost:8000');
+} else {
+  // 本番環境用の設定 (元の設定)
+  /** WordPress のためのデータベース名 */
+  define('DB_NAME', 'LAA1256459-hirata');
 
-/** MySQL データベースのパスワード */
-define('DB_PASSWORD', 'HirataWoods239');
+  /** MySQL データベースのユーザー名 */
+  define('DB_USER', 'LAA1256459');
 
-/** MySQL のホスト名 */
-define('DB_HOST', 'mysql148.phy.lolipop.lan');
+  /** MySQL データベースのパスワード */
+  define('DB_PASSWORD', 'HirataWoods239');
+
+  /** MySQL のホスト名 */
+  define('DB_HOST', 'mysql148.phy.lolipop.lan');
+}
 
 /** データベースのテーブルを作成する際のデータベースの文字セット */
 define('DB_CHARSET', 'utf8');
@@ -69,7 +82,7 @@ define('NONCE_SALT', 't7hQbaWjL>G7ZdWcbk<&$Aa!,^NwbiJ@iDTZ1s8jh53;RBB`fNPR+yZnBC
  * それぞれにユニーク (一意) な接頭辞を与えることで一つのデータベースに複数の WordPress を
  * インストールすることができます。半角英数字と下線のみを使用してください。
  */
-$table_prefix  = 'wp20210126114107_';
+$table_prefix = 'wp20210126114107_';
 
 /**
  * 開発者へ: WordPress デバッグモード
@@ -85,7 +98,11 @@ define('WP_DEBUG', false);
 define('WP_ALLOW_MULTISITE', true);
 define('MULTISITE', true);
 define('SUBDOMAIN_INSTALL', false);
-define('DOMAIN_CURRENT_SITE', 'hirata-auto.com');
+if (getenv('IS_DOCKER')) {
+  define('DOMAIN_CURRENT_SITE', 'localhost:8000');
+} else {
+  define('DOMAIN_CURRENT_SITE', 'hirata-auto.com');
+}
 define('PATH_CURRENT_SITE', '/');
 define('SITE_ID_CURRENT_SITE', 1);
 define('BLOG_ID_CURRENT_SITE', 1);
