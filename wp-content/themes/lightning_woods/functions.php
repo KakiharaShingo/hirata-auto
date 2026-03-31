@@ -136,7 +136,8 @@ function woods_replace_rental_bikelist( $content ) {
        style="display: inline-block; background: #8b4513; color: #fff; padding: 15px 40px; text-decoration: none; font-weight: bold; font-size: 1.1em;">
         バイクリストを見る &raquo;
     </a>
-</p>';
+</p>
+<div class="alert alert-danger"><p>レンタル料には、バイク、燃料、走行料が含まれております。但し、<a href="/woods/保険/">保険料</a>は含まれておりませんのでご注意ください。</p></div>';
 
     return $before_part . $replacement . $after_part;
 }
