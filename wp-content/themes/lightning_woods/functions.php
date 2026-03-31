@@ -129,8 +129,30 @@ function woods_replace_rental_bikelist( $content ) {
     }
 
     $replacement = '
-<h3>バイクリスト・料金</h3>
-<p>レンタルバイクの車種・料金についてはお問い合わせください。</p>
+<h3>バイクリスト</h3>
+
+<h4>50cc</h4>
+<p>●特徴：オートマチック/自動変速<br>
+●対象：5～8歳<br>
+●料金：半日（約2時間） <strong><span style="color:#7a2b24">5,500</span></strong>円<br>
+　　　　終日（約4時間） <strong><span style="color:#7a2b24">8,000</span></strong>円<br>
+※保険料は含まれておりません。</p>
+
+<h4>70cc</h4>
+<p>●特徴：3速オートマチック<br>
+●対象：9～12歳<br>
+●料金：半日（約2時間） <strong><span style="color:#7a2b24">6,500</span></strong>円<br>
+　　　　終日（約4時間） <strong><span style="color:#7a2b24">9,500</span></strong>円<br>
+※保険料は含まれておりません。</p>
+
+<h4>80/100cc</h4>
+<p>●特徴：クラッチ付き/5速ミッション<br>
+●対象：13歳～大人<br>
+●料金：半日（約2時間） <strong><span style="color:#7a2b24">7,500</span></strong>円<br>
+　　　　終日（約4時間） <strong><span style="color:#7a2b24">11,000</span></strong>円<br>
+※保険料は含まれておりません。</p>
+
+<p>※その他の排気量・料金についてはお問い合わせください。</p>
 <p style="margin: 2em 0;">
     <a href="https://www.hirata-motors.com/sale.html" target="_blank" rel="noopener noreferrer"
        style="display: inline-block; background: #8b4513; color: #fff; padding: 15px 40px; text-decoration: none; font-weight: bold; font-size: 1.1em;">
