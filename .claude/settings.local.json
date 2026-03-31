@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(done)",
+      "Bash(chmod:*)",
+      "WebFetch(domain:wppusher.com)",
+      "Bash(unzip:*)"
+    ]
+  }
+}

@@ -24,9 +24,8 @@ wp-content/debug.log
 # Docker
 # We want to keep docker-compose.yml but maybe ignore temporary docker data if any mapped (here we mapped . to /var/www/html so no extra volumes except db_data which is named volume)
 
-# Secrets?
-# wp-config.php contains real creds. Usually ignored.
-# For this local convenience, user might want it, but standard practice is ignore.
-# I will include it for now as per user request to "manage this", but normally we wouldn't.
-# If I ignore it, they lose the docker config I just added.
-# I will NOT ignore wp-config.php for this specific "local preview" snapshot request, unless user says otherwise.
+# Secrets - Public repoなのでwp-configは除外
+wp-config.php
+wp-config---.php
+wp-config--.php
+wp-config-.php
