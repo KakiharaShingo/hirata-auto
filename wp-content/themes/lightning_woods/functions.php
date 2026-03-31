@@ -82,7 +82,7 @@ function add_wp_footer_custom(){ ?>
 /*-------------------------------------------*/
 add_filter( 'the_content', 'woods_replace_rental_bikelist' );
 function woods_replace_rental_bikelist( $content ) {
-    if ( ! is_page( 16 ) ) {
+    if ( ! is_page( 16 ) && ! is_page( 'レンタルバイク' ) ) {
         return $content;
     }
 
