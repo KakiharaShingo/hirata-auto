@@ -78,7 +78,7 @@ function add_wp_footer_custom(){ ?>
 // add_action( 'wp_footer', 'add_wp_footer_custom', 1 );
 
 /*-------------------------------------------*/
-/*  レンタルバイクページ: バイクリスト以降を外部リンクに差し替え
+/*  レンタルバイクページ: バイクリストをリンクに差し替え（オプション以降は残す）
 /*-------------------------------------------*/
 add_filter( 'the_content', 'woods_replace_rental_bikelist' );
 function woods_replace_rental_bikelist( $content ) {
@@ -86,29 +86,42 @@ function woods_replace_rental_bikelist( $content ) {
         return $content;
     }
 
-    // 「バイクリスト」見出し以降を削除して外部リンクに差し替え
-    $marker = 'バイクリスト';
-    $pos = mb_strpos( $content, $marker );
-    if ( $pos === false ) {
+    // 「バイクリスト」と「オプション」の位置を探す
+    $start_marker = 'バイクリスト';
+    $end_marker = 'オプション';
+
+    $start_pos = mb_strpos( $content, $start_marker );
+    if ( $start_pos === false ) {
         return $content;
     }
 
-    // マーカーの手前のタグ開始位置を探す（<h2> or <h3> など）
-    $before = mb_substr( $content, 0, $pos );
-    $tag_pos = mb_strrpos( $before, '<h' );
-    if ( $tag_pos !== false ) {
-        $before = mb_substr( $content, 0, $tag_pos );
+    // バイクリスト見出しの開始タグ位置
+    $before_part = mb_substr( $content, 0, $start_pos );
+    $start_tag_pos = mb_strrpos( $before_part, '<h' );
+    if ( $start_tag_pos !== false ) {
+        $before_part = mb_substr( $content, 0, $start_tag_pos );
+    }
+
+    // オプション見出しの開始タグ位置（ここから後ろは残す）
+    $end_pos = mb_strpos( $content, $end_marker, $start_pos );
+    $after_part = '';
+    if ( $end_pos !== false ) {
+        $tmp = mb_substr( $content, 0, $end_pos );
+        $end_tag_pos = mb_strrpos( $tmp, '<h' );
+        if ( $end_tag_pos !== false ) {
+            $after_part = mb_substr( $content, $end_tag_pos );
+        }
     }
 
     $replacement = '
-<h2>バイクリスト・料金</h2>
-<p>レンタルバイクの車種・料金の詳細は下記ページをご覧ください。</p>
+<h3>バイクリスト・料金</h3>
+<p>レンタルバイクの車種・料金についてはお問い合わせください。</p>
 <p style="margin: 2em 0;">
     <a href="https://www.hirata-motors.com/sale.html" target="_blank" rel="noopener noreferrer"
        style="display: inline-block; background: #8b4513; color: #fff; padding: 15px 40px; text-decoration: none; font-weight: bold; font-size: 1.1em;">
-        バイクリスト・料金を見る &raquo;
+        バイクリストを見る &raquo;
     </a>
 </p>';
 
-    return $before . $replacement;
+    return $before_part . $replacement . $after_part;
 }
