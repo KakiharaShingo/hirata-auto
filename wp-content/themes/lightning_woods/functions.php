@@ -1,5 +1,20 @@
 <?php
 
+/*-------------------------------------------*/
+/*  テーマ有効化時にLightning Childのカスタマイザー設定をコピー
+/*-------------------------------------------*/
+add_action( 'after_switch_theme', 'woods_copy_child_theme_mods' );
+function woods_copy_child_theme_mods() {
+    if ( get_option( 'woods_theme_mods_copied' ) ) {
+        return;
+    }
+    $child_mods = get_option( 'theme_mods_lightning_child' );
+    if ( $child_mods ) {
+        update_option( 'theme_mods_lightning_woods', $child_mods );
+    }
+    update_option( 'woods_theme_mods_copied', true );
+}
+
 // プラグイン自動更新通知メール停止
 add_filter( 'auto_plugin_update_send_email', '__return_false' );
 
