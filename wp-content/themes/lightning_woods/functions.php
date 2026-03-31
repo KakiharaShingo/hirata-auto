@@ -1,18 +1,18 @@
 <?php
 
 /*-------------------------------------------*/
-/*  テーマ有効化時にLightning Childのカスタマイザー設定をコピー
+/*  テーマ有効化時に元テーマのカスタマイザー設定をコピー
 /*-------------------------------------------*/
-add_action( 'after_switch_theme', 'woods_copy_child_theme_mods' );
-function woods_copy_child_theme_mods() {
-    if ( get_option( 'woods_theme_mods_copied' ) ) {
-        return;
+add_action( 'after_switch_theme', 'woods_copy_parent_theme_mods' );
+function woods_copy_parent_theme_mods() {
+    // Lightning親テーマ → Lightning Child の順で探す
+    $source_mods = get_option( 'theme_mods_lightning' );
+    if ( ! $source_mods ) {
+        $source_mods = get_option( 'theme_mods_lightning_child' );
     }
-    $child_mods = get_option( 'theme_mods_lightning_child' );
-    if ( $child_mods ) {
-        update_option( 'theme_mods_lightning_woods', $child_mods );
+    if ( $source_mods ) {
+        update_option( 'theme_mods_lightning_woods', $source_mods );
     }
-    update_option( 'woods_theme_mods_copied', true );
 }
 
 // プラグイン自動更新通知メール停止
