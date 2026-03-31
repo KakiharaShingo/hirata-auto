@@ -76,3 +76,39 @@ function add_wp_footer_custom(){ ?>
 <!-- footerに書きたいコード -->
 <?php }
 // add_action( 'wp_footer', 'add_wp_footer_custom', 1 );
+
+/*-------------------------------------------*/
+/*  レンタルバイクページ: バイクリスト以降を外部リンクに差し替え
+/*-------------------------------------------*/
+add_filter( 'the_content', 'woods_replace_rental_bikelist' );
+function woods_replace_rental_bikelist( $content ) {
+    if ( ! is_page( 16 ) ) {
+        return $content;
+    }
+
+    // 「バイクリスト」見出し以降を削除して外部リンクに差し替え
+    $marker = 'バイクリスト';
+    $pos = mb_strpos( $content, $marker );
+    if ( $pos === false ) {
+        return $content;
+    }
+
+    // マーカーの手前のタグ開始位置を探す（<h2> or <h3> など）
+    $before = mb_substr( $content, 0, $pos );
+    $tag_pos = mb_strrpos( $before, '<h' );
+    if ( $tag_pos !== false ) {
+        $before = mb_substr( $content, 0, $tag_pos );
+    }
+
+    $replacement = '
+<h2>バイクリスト・料金</h2>
+<p>レンタルバイクの車種・料金の詳細は下記ページをご覧ください。</p>
+<p style="margin: 2em 0;">
+    <a href="https://www.hirata-motors.com/sale.html" target="_blank" rel="noopener noreferrer"
+       style="display: inline-block; background: #8b4513; color: #fff; padding: 15px 40px; text-decoration: none; font-weight: bold; font-size: 1.1em;">
+        バイクリスト・料金を見る &raquo;
+    </a>
+</p>';
+
+    return $before . $replacement;
+}
