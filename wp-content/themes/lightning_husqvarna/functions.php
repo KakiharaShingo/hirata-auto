@@ -361,7 +361,8 @@ function husqvarna_theme_activation()
             ]);
             wp_update_nav_menu_item($menu_id, 0, [
                 'menu-item-title' => 'ショップ案内',
-                'menu-item-url' => home_url('/#about'),
+                'menu-item-url' => 'https://dekiteru.net/cms/em_top.php?id=17874',
+                'menu-item-target' => '_blank',
                 'menu-item-status' => 'publish',
                 'menu-item-type' => 'custom',
             ]);
