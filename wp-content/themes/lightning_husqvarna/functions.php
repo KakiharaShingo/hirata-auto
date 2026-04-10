@@ -44,7 +44,7 @@ h5 {
 .wp-block-coblocks-service .wp-block-button {
     margin-top: 0;
 }
-/* 特選USEDレイアウト */
+/* 特選中古車レイアウト */
 .alignwide {
     margin-left: 0;
     margin-right: 0;
@@ -346,7 +346,7 @@ function husqvarna_theme_activation()
                 'menu-item-type' => 'custom',
             ]);
             wp_update_nav_menu_item($menu_id, 0, [
-                'menu-item-title' => '特選USED',
+                'menu-item-title' => '特選中古車',
                 'menu-item-url' => 'https://www.hirata-motors.com/cars.html',
                 'menu-item-target' => '_blank',
                 'menu-item-status' => 'publish',

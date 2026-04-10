@@ -58,7 +58,7 @@ get_header(); ?>
 <div class="menu_plus">
 <ul class="menu_plusul">
 <li><a href="<?php echo esc_url(home_url('/仮予約/')); ?>"><strong class="gMenu_name">仮予約</strong></a></li>
-<li><a target="_blank" href="https://www.hirata-motors.com/cars.html" rel="noopener"><strong class="gMenu_name">特選USED</strong></a></li>
+<li><a target="_blank" href="https://www.hirata-motors.com/cars.html" rel="noopener"><strong class="gMenu_name">特選中古車</strong></a></li>
 <li><a target="_blank" href="https://hirata-auto.stores.jp" rel="noopener"><strong class="gMenu_name">公式ショップ</strong></a></li>
 </ul>
 </div>
